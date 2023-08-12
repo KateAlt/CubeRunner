@@ -18,6 +18,7 @@ public class CreatorOfLevel : MonoBehaviour
             Instantiate(cubePlatform, new Vector3(0f, 20f, 0f), Quaternion.identity);
             Debug.Log("Its work");
             yield return new WaitForSeconds(2f);
+            //djfio
         }
     }
 }

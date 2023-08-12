@@ -18,6 +18,7 @@ public class OnTriger : MonoBehaviour
                     enemy.transform.SetParent (parentObject.transform, false);
 
             Debug.Log("cube: " + new Vector3(0f, MainDate.countCubes, 0f) + "  " + MainDate.countCubes);
+            ///dshcfjkdhnfcj
         }
     }
 }
