@@ -10,9 +10,12 @@ public class AssignedCube : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Destroy(objectToDelete);
-            Debug.Log("Its work+++++++++++++++++++++++++++++++++++++++++");
+            // Destroy(objectToDelete);
+            objectToDelete.AddComponent<PlatfonmMechanics>();
+            objectToDelete.transform.parent = null;
+            MainDate.countCubes -= 1;
 
+            Debug.Log("Add Component PlatfonmMechanics " + "transform parent is null" + objectToDelete.name);
         }
     }
 }
