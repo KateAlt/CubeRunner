@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class cubeOfWall : MonoBehaviour
 {
-    void OnTriggerEnter(Collider collision)
-    {
-        if (collision.CompareTag("Wall"))
-        {
-            Destroy(collision.gameObject);
-            Debug.Log("Its wall");
-        }
-    }
+    // void OnTriggerEnter(Collider collision)
+    // {
+    //     if (collision.CompareTag("Wall"))
+    //     {
+    //         Destroy(collision.gameObject);
+    //         Debug.Log("Its wall");
+    //     }
+    // }
 }

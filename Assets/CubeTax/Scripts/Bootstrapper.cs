@@ -13,21 +13,29 @@ public class Bootstrapper : MonoBehaviour
     public GameObject wall2Prefab;
     public GameObject wall3Prefab;
 
+    public GameObject finishCirclePrefab;
+    public GameObject finishPlanePrefab;
+
+
     private void Start()
     {
         InstantiatePlatforms();
         InstantiateCubes();
         InstantiateWall();
-        // InstantiateFinish();
     }
 
     private void InstantiatePlatforms()
     {
+        int countPositionFinish = 1;
         for (int i = 0; i < LevelsData.numberOfPlatforms; i++)
         {
             Vector3 platformPosition = new Vector3(0f, 0f, i * 5f);
             Instantiate(platformPrefab, platformPosition, Quaternion.identity);
+            countPositionFinish ++;
         }
+        Instantiate(finishCirclePrefab, new Vector3(0f, 1.7f, (countPositionFinish * 5f) - 10f), Quaternion.identity);
+        Instantiate(finishPlanePrefab, new Vector3(0f, 0.55f, (countPositionFinish * 5f) - 10f), Quaternion.identity);
+        Instantiate(platformPrefab, new Vector3(0f, 0f, -5f), Quaternion.identity);
     }
 
     private void InstantiateCubes()
@@ -58,9 +66,4 @@ public class Bootstrapper : MonoBehaviour
             }
         }
     }
-
-    // private void InstantiateFinish()
-    // {
-    //     Instantiate(cubePrefab, LevelsData.casesCube[i].position, Quaternion.identity);
-    // }
 }

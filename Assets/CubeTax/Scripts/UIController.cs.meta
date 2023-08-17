@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: b44741906b02a264695b445fc54356c1
+guid: e7ed8a1efe55bce4483f6db6bc674bd1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - objectToDelete: {instanceID: 0}
-  - MainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

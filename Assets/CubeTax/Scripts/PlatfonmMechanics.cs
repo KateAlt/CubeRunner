@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PlatfonmMechanics : MonoBehaviour
 {
+    public MainData MainData;
+
     void FixedUpdate()
     {
-        if(true){ //MainDate.canStart
-            
-            transform.Translate(Vector3.back * MainDate.speedOfMove * Time.deltaTime);
+        if(MainData.canStart)
+        { 
+            transform.Translate(Vector3.back * MainData.speedOfMove * Time.deltaTime);
 
             if(transform.position.z < -6){
                 Destroy(gameObject);

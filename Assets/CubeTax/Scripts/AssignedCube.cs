@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class AssignedCube : MonoBehaviour
 {
-    public GameObject objectToDelete; 
+    public GameObject objectToDelete;
+    public MainData MainData;
 
     void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Player"))
         {
             // Destroy(objectToDelete);
-            objectToDelete.AddComponent<PlatfonmMechanics>();
+            // objectToDelete.AddComponent<PlatfonmMechanics>();
+            objectToDelete.GetComponent<PlatfonmMechanics>().enabled = true;
             objectToDelete.transform.parent = null;
-            MainDate.countCubes -= 1;
-
-            Debug.Log("Add Component PlatfonmMechanics " + "transform parent is null" + objectToDelete.name);
+            MainData.countCubes -= 1;
         }
     }
 }
