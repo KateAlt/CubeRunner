@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a00a9ec6a0b89d04a8929211e57fd03f, type: 3}
   m_Name: LevelsData
   m_EditorClassIdentifier: 
-  numberOfPlatforms: 60
+  numberOfPlatforms: 14
   casesCube:
   - name: 
     position: {x: 0, y: 1, z: 3}
@@ -62,7 +62,7 @@ MonoBehaviour:
     parameterWall: 0
   - name: 
     position: {x: 0, y: 1, z: 33}
-    parameterWall: 1
+    parameterWall: 2
   - name: 
     position: {x: 0, y: 1, z: 51}
     parameterWall: 1

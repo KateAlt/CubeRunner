@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3141912915222666510}
   - component: {fileID: 3141912915222666509}
   - component: {fileID: 3141912915222666508}
-  - component: {fileID: 3141912915222666507}
   - component: {fileID: 1477075780309318689}
   m_Layer: 0
   m_Name: CubeWall
@@ -86,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3141912915222666507
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3141912915222666506}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1477075780309318689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,7 +113,7 @@ GameObject:
   - component: {fileID: 8057194264428109418}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Player
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

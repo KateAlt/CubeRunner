@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    public MainData MainData;
+    
     public float sensitivity = 2f; // Чутливість миші
     public float clampX = 5f; // Максимальний обмеження зміщення по осі X
 
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        if(Input.GetMouseButton(0) && MainData.canStart)
         {
             // Отримуємо значення зміщення миші по горизонталі
             float mouseX = Input.GetAxis("Mouse X");

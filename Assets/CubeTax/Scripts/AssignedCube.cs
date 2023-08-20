@@ -9,13 +9,10 @@ public class AssignedCube : MonoBehaviour
 
     void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Wall"))
         {
-            // Destroy(objectToDelete);
-            // objectToDelete.AddComponent<PlatfonmMechanics>();
             objectToDelete.GetComponent<PlatfonmMechanics>().enabled = true;
             objectToDelete.transform.parent = null;
-            MainData.countCubes -= 1;
         }
     }
 }

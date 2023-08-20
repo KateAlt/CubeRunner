@@ -9,34 +9,40 @@ public class CharController : MonoBehaviour
     public GameObject cubePrefab;
     public Transform parentObject;
 
+    public GameObject uiFall;
+    public GameObject uiWin;
+
     void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Cube"))
         {
             Destroy(collision.gameObject);
 
-            MainData.countCubes += 1;
             GameObject enemy = Instantiate(cubePrefab, new Vector3(0f, MainData.countCubes + 1f, 0f), Quaternion.identity);
                     enemy.transform.SetParent (parentObject.transform, false);
-
-            Debug.Log("cube: " + new Vector3(0f, MainData.countCubes, 0f) + "  " + MainData.countCubes);
         }
 
         if (collision.CompareTag("Finish"))
         {
             MainData.canStart = false;
+            uiWin.SetActive(true);
             
         }
     }
 
     void Update()
     {
-        if(MainData.countCubes == 0)
-        MainData.canStart = false;
+        MainData.countCubes = gameObject.transform.childCount - 1;
+        if(MainData.countCubes <= 0)
+        {
+            MainData.canStart = false;
+            uiFall.SetActive(true);
+        }
     }
 
     void OnDisable()
     {
-         MainData.countCubes = 1;
+        MainData.countCubes = 1;
+        MainData.canStart = false;
     }
 }

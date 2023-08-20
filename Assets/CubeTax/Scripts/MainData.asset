@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countCubes: 1
   speedOfMove: 5
-  canStart: 1
+  canStart: 0
   level: 0
