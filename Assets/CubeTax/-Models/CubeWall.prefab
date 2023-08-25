@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3141912915222666510}
   - component: {fileID: 3141912915222666509}
   - component: {fileID: 3141912915222666508}
-  - component: {fileID: 1477075780309318689}
   m_Layer: 0
   m_Name: CubeWall
   m_TagString: Untagged
@@ -85,19 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1477075780309318689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3141912915222666506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff3d259fe132853438d68403656304a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
 --- !u!1 &5972948407504520238
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +134,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5972948407504520238}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

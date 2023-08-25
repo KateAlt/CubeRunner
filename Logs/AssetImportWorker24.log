@@ -15,7 +15,7 @@ C:/Users/black/Desktop/CubeTax
 -logFile
 Logs/AssetImportWorker24.log
 -srvPort
-50067
+64816
 Successfully changed project path to: C:/Users/black/Desktop/CubeTax
 C:/Users/black/Desktop/CubeTax
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/black/Desktop/CubeTax
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 1021.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1930.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.23f1 (9636b062134a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.108615 seconds.
+Registered in 0.087136 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 Native extension for iOS target not found
 [usbmuxd] Listen thread started
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1189.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 930.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.856 seconds
+- Completed reload, in 12.408 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8859ms)
-		BeginReloadAssembly (789ms)
+	ReloadAssembly (12414ms)
+		BeginReloadAssembly (1735ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (6648ms)
-			LoadAssemblies (768ms)
+			CreateAndSetChildDomain (8ms)
+		EndReloadAssembly (9563ms)
+			LoadAssemblies (1719ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1293ms)
-				TypeCache.Initialize (1286ms)
-					TypeCache.ScanAssembly (1277ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (1172ms)
+				TypeCache.Initialize (1164ms)
+					TypeCache.ScanAssembly (1155ms)
+				ResolveRequiredComponents (8ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (327ms)
-			SetupLoadedEditorAssemblies (4372ms)
+			RebuildScriptCaches (170ms)
+			SetupLoadedEditorAssemblies (7617ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (830ms)
-				SetLoadedEditorAssemblies (82ms)
-				RefreshPlugins (1190ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (1728ms)
-				ProcessInitializeOnLoadMethodAttributes (531ms)
+				InitializePlatformSupportModulesInManaged (1078ms)
+				SetLoadedEditorAssemblies (169ms)
+				RefreshPlugins (1013ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (3420ms)
+				ProcessInitializeOnLoadMethodAttributes (1927ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.089875 seconds.
+Registered in 0.083091 seconds.
