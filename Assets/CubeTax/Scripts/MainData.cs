@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "DDData", menuName = "KKevelsData", order = 1)]
-
+[CreateAssetMenu(fileName = "MainData", menuName = "KKevelsData", order = 1)]
 public class MainData : ScriptableObject
 {   
     public int level;

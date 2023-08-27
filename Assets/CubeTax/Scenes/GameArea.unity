@@ -4021,6 +4021,8 @@ GameObject:
   - component: {fileID: 1864766712}
   - component: {fileID: 1864766713}
   - component: {fileID: 1864766714}
+  - component: {fileID: 1864766715}
+  - component: {fileID: 1864766716}
   m_Layer: 0
   m_Name: bootstrapper
   m_TagString: Untagged
@@ -4050,7 +4052,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864766709}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad829b84a22491b45bba0ec0a469ef9a, type: 3}
   m_Name: 
@@ -4137,6 +4139,39 @@ MonoBehaviour:
   platformPrefab: {fileID: 7194535778442408675, guid: f14720547ab9e7e4b92f8dfaad849fc9,
     type: 3}
   yourNewMaterial: {fileID: 2100000, guid: aa5438cbaf0735549876721db0417ef2, type: 2}
+--- !u!114 &1864766715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864766709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f5d9ddd6d8fbc46b77325205047f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
+  platformPrefab: {fileID: 7194535778442408675, guid: f14720547ab9e7e4b92f8dfaad849fc9,
+    type: 3}
+  finishCirclePrefab: {fileID: 5705281722511937593, guid: c9c87108948dbf745bab4c3332c460ee,
+    type: 3}
+  finishPlanePrefab: {fileID: 4846425020050926773, guid: e0fd207389e3d1c46a99fac212b4d78c,
+    type: 3}
+--- !u!114 &1864766716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864766709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9da5005387cf114290b359d255fdbe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instantiateController: {fileID: 1864766715}
+  Level1: {fileID: 11400000, guid: 1c71e812bc47ccb40bef5db5e7e7eeac, type: 2}
 --- !u!1 &1873501897
 GameObject:
   m_ObjectHideFlags: 0

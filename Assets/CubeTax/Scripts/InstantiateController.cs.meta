@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b9f5d9ddd6d8fbc46b77325205047f54
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
+  - platformPrefab: {fileID: 7194535778442408675, guid: f14720547ab9e7e4b92f8dfaad849fc9,
+      type: 3}
+  - cubePrefab: {fileID: 7095014526371716685, guid: 871bb0980ab2a9740af6123ac1f0a06d,
+      type: 3}
+  - finishCirclePrefab: {fileID: 5705281722511937593, guid: c9c87108948dbf745bab4c3332c460ee,
+      type: 3}
+  - finishPlanePrefab: {fileID: 4846425020050926773, guid: e0fd207389e3d1c46a99fac212b4d78c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

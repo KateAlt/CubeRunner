@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-[CreateAssetMenu(fileName = "LevelsData", menuName = "ScriptableObjects/LevelsData", order = 17)]
+[CreateAssetMenu(fileName = "Level", menuName = "ScriptableObjects/LevelsData", order = 17)]
 public class DataLevels : ScriptableObject
 {
 
     [SerializeField, Min(1)]
     public int numberOfPlatforms;
 
-    public PositionOfCube[] casesCube;
-    public PositionOfWall[] casesWall;
+    public PositionOfCube[] cubes;
+    public PositionOfWall[] walls;
 }
 
 
