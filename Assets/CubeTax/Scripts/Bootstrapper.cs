@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Bootstrapper : MonoBehaviour
 {
-    public TioList LevelsData;
+    public DataLevels LevelsData;
     public GameObject platformPrefab;
     public GameObject cubePrefab;
 

@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/CubeTax/Scenes/GameArea.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/CubeTax/Scenes/GameArea.unity
     guid: 99fd87c081d725a46aa5c8f72e75bc46
+  - enabled: 1
+    path: Assets/CubeTax/Scenes/Test 1.unity
+    guid: 06831145cb7e9f84eb9f1018626b0f47
   m_configObjects: {}

@@ -5,7 +5,10 @@ using System.Linq;
 
 public class BootstrapperTwo : MonoBehaviour
 {
-    private int numberOfWalls;
+    public MainData mainData;
+    public ColorSchems ColorSchems;
+
+    public int numberOfWalls;
 
     private int[] sizeOfSpaces;
     
@@ -24,18 +27,18 @@ public class BootstrapperTwo : MonoBehaviour
 
     private void Start()
     {
-        numberOfWalls = Random.Range(6, 16);
+        numberOfWalls = Random.Range(4, 15);
         Setup();
         InstantiatePlatforms();
         InstantiateCubeAndWall();
 
         directionalLight = directionalLightObject.GetComponent<Light>();
-        directionalLight.color = new Color(1f, 0.42f, 0.42f);
+        directionalLight.color = ColorSchems.lightOrangeColor;
     }
 
     private void Setup()
     {
-        sizeOfSpaces = GenerateRandomSpaces(numberOfWalls, 4, 6);
+        sizeOfSpaces = GenerateRandomSpaces(numberOfWalls, 2, 4);
         totalPlatforms = ((numberOfWalls * 3) / 5) + ((sizeOfSpaces.Sum() * 3) / 5) + 4;
     }
 
@@ -64,7 +67,7 @@ public class BootstrapperTwo : MonoBehaviour
             GameObject newPlatform = Instantiate(platformPrefab, platformPosition, Quaternion.identity);
             Renderer renderer = newPlatform.GetComponent<Renderer>();
             renderer.material = yourNewMaterial;
-            renderer.material.color = Color.red;
+            renderer.material.color = new Color(1f, 0.6431373f, 0.2039215f);
 
             countPositionPlatform ++;
             positionKK = Vector3.forward * i * platformSpacing;
@@ -88,7 +91,7 @@ public class BootstrapperTwo : MonoBehaviour
         Instantiate(cubePrefab, new Vector3(0f, 1f, 3f), Quaternion.identity);
         Instantiate(cubePrefab, new Vector3((float)Random.Range(-2, 2), 1f, 6f), Quaternion.identity);
         
-        Instantiate(wallPrefabs[Random.Range(1, wallPrefabs.Length)], new Vector3(0f, 1f, 9f), Quaternion.identity);
+        Instantiate(wallPrefabs[Random.Range(1, wallPrefabs.Length)], new Vector3(0f, 0f, 9f), Quaternion.identity);
 
         foreach (int spaceSize in sizeOfSpaces)
         {
@@ -97,7 +100,10 @@ public class BootstrapperTwo : MonoBehaviour
                 if(Random.Range(0, 2) == 1)
                 {
                     Vector3 cubePosition = new Vector3((float)Random.Range(-2, 2), height, countPosition * cubeSpacing);
-                    Instantiate(cubePrefab, cubePosition, Quaternion.identity);
+                    GameObject newPlatform = Instantiate(cubePrefab, cubePosition, Quaternion.identity);
+                    Renderer renderer = newPlatform.GetComponent<Renderer>();
+                    renderer.material = yourNewMaterial;
+                    renderer.material.color = new Color(1f, 0.6431373f, 0.2039215f);
                     countPosition++;
                 }
                 else
@@ -108,7 +114,7 @@ public class BootstrapperTwo : MonoBehaviour
                 
             }
 
-            Vector3 wallPosition = new Vector3(0f, height, countPosition * cubeSpacing);
+            Vector3 wallPosition = new Vector3(0f, 0f, countPosition * cubeSpacing);
             Instantiate(wallPrefabs[Random.Range(1, wallPrefabs.Length)], wallPosition, Quaternion.identity);
             countPosition++;
             Debug.Log(countPosition);

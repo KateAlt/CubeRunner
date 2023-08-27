@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 5783d39efa03ede4b9f005ceeb54222a, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: a62aafafafe190047aa3eec84d970775, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.13347696, g: 0.19760531, b: 0.13906978, a: 1}
+  m_IndirectSpecularColor: {r: 0.44412494, g: 0.16047037, b: 0.053092543, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1342,6 +1342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeAssigned
       objectReference: {fileID: 0}
+    - target: {fileID: 7095014526371716685, guid: 193bce1c23a16584c84b552efbc39e60,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7095014526371716721, guid: 193bce1c23a16584c84b552efbc39e60,
         type: 3}
       propertyPath: m_RootOrder
@@ -1360,7 +1365,7 @@ PrefabInstance:
     - target: {fileID: 7095014526371716721, guid: 193bce1c23a16584c84b552efbc39e60,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7095014526371716721, guid: 193bce1c23a16584c84b552efbc39e60,
         type: 3}
@@ -4015,6 +4020,7 @@ GameObject:
   - component: {fileID: 1864766711}
   - component: {fileID: 1864766712}
   - component: {fileID: 1864766713}
+  - component: {fileID: 1864766714}
   m_Layer: 0
   m_Name: bootstrapper
   m_TagString: Untagged
@@ -4044,7 +4050,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864766709}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad829b84a22491b45bba0ec0a469ef9a, type: 3}
   m_Name: 
@@ -4058,7 +4064,7 @@ MonoBehaviour:
     type: 3}
   wall2Prefab: {fileID: 7605746897374629497, guid: 5ffaca92ba2bd8c4eb72650383bb421a,
     type: 3}
-  wall3Prefab: {fileID: 8189354858324428604, guid: a2fd54b4841f4e643a560ebf77d438d6,
+  wall3Prefab: {fileID: 8828745500357597512, guid: 2fed650e8bb860a4c857d65957536466,
     type: 3}
   finishCirclePrefab: {fileID: 5705281722511937593, guid: c9c87108948dbf745bab4c3332c460ee,
     type: 3}
@@ -4071,31 +4077,66 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864766709}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0d7df17af887284ea8af7654055484b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfWalls: 10
+  mainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
+  ColorSchems: {fileID: 11400000, guid: 6fcb4154eb0d6cf4fbc5c5138eff0c16, type: 2}
+  numberOfWalls: 0
   platformPrefab: {fileID: 7194535778442408675, guid: f14720547ab9e7e4b92f8dfaad849fc9,
     type: 3}
   cubePrefab: {fileID: 7095014526371716685, guid: 871bb0980ab2a9740af6123ac1f0a06d,
     type: 3}
   wallPrefabs:
-  - {fileID: 5744121461595064147, guid: b3ca25dd92abfe044a1c81bd2a8b79c5, type: 3}
-  - {fileID: 1209131458892151775, guid: 77e7bdd8c659d114fb94e48223d4e582, type: 3}
-  - {fileID: 5382748204515369852, guid: 6572888ab70eb2e49b67b7841c9a10d3, type: 3}
-  - {fileID: 8121155970735360367, guid: 4aed6afa01617564996765002f1f1f2c, type: 3}
-  - {fileID: 8820620331641148171, guid: 32683387068ce774598f1efc56e44106, type: 3}
-  - {fileID: 7605746897374629497, guid: 5ffaca92ba2bd8c4eb72650383bb421a, type: 3}
-  - {fileID: 1384173006866120314, guid: ae8e793088b3ddd46bfe4bab8d6570dc, type: 3}
-  - {fileID: 3819690735393257062, guid: 68cef14ffaf009940b889c891ccc5dff, type: 3}
-  - {fileID: 2244023017210485050, guid: a44d5bf307f97b645ac0f75f63ae1033, type: 3}
-  - {fileID: 383336842288283467, guid: da76e9a895ea01546ac0ab53ef924468, type: 3}
+  - {fileID: 8251311377740275539, guid: 56e679ef217825f499c53f63d2480073, type: 3}
+  - {fileID: 2856755318851780575, guid: f71f7179fdac9404f9ef6d40ca4712c9, type: 3}
+  - {fileID: 4773123217933757687, guid: 4f7374cb2a08ab94998e6ce14ac76c61, type: 3}
+  - {fileID: 1482572853940540905, guid: 5c1dcb68852fc9b44a7f5adc712503d8, type: 3}
+  - {fileID: 7738247766391352357, guid: ec07d1c358383b24497ea982f78d290f, type: 3}
+  - {fileID: 8828745500357597512, guid: 2fed650e8bb860a4c857d65957536466, type: 3}
+  - {fileID: 5456858893363666440, guid: 10feb21b45326fa4f9ca70f26535c33c, type: 3}
+  - {fileID: 668892154830073860, guid: 531c3723b4f5907478576b77bcb7b8f7, type: 3}
+  - {fileID: 3360128285858435128, guid: 2851f461fd166b64497835beaed0026a, type: 3}
+  - {fileID: 6681976359331264166, guid: 9a9fcffbae6139a45903a243d3c97da5, type: 3}
+  - {fileID: 1000175597477871476, guid: 8a63da51c5e28434eacea9a15efdeb6a, type: 3}
+  - {fileID: 4924536914951444961, guid: ea0c468363cc00f46a6e4a40394d400d, type: 3}
+  - {fileID: 6920487921489373103, guid: 499567bb1b2bbaa4c8bb74e193baf9eb, type: 3}
+  - {fileID: 7727509183172597591, guid: 39b4aff1a669f0549be55afbb2e5ad31, type: 3}
+  - {fileID: 1146000654380559883, guid: 3a1f9652b2c0d1b4caff759aeb21fb00, type: 3}
+  - {fileID: 4484537607076959434, guid: dc874712ac7819e44ac695df0d27d49b, type: 3}
+  - {fileID: 3091680266094610110, guid: 32bc9412df0cfc249b6d2a87590bf9f6, type: 3}
+  - {fileID: 2674973361814543586, guid: 2828eddcbaf90dc41b3b5172477a9af1, type: 3}
+  - {fileID: 9208349067416027687, guid: ee8d18106f469ca4caa2789ab4b588cd, type: 3}
+  - {fileID: 8032963024307598556, guid: 4a03db794c426f0478a0c5fe5ebe7177, type: 3}
+  - {fileID: 2006561662682065333, guid: 207ed5f60e5c6f943a7c7327af412aaf, type: 3}
+  - {fileID: 3611630418611380627, guid: 891f185e0bdf47c41b41315c73d25ae7, type: 3}
+  - {fileID: 3611630418611380627, guid: 8c7de6fbb7ffe0a48b2bf8ce6b865a14, type: 3}
+  - {fileID: 3611630418611380627, guid: db92f34958a269f4cafbf9b1d03961aa, type: 3}
+  - {fileID: 3611630418611380627, guid: bbb5960695fd9734bb6d176c3035c4fa, type: 3}
   finishCirclePrefab: {fileID: 5705281722511937593, guid: c9c87108948dbf745bab4c3332c460ee,
     type: 3}
   finishPlanePrefab: {fileID: 4846425020050926773, guid: e0fd207389e3d1c46a99fac212b4d78c,
     type: 3}
+  directionalLightObject: {fileID: 410087039}
+  yourNewMaterial: {fileID: 2100000, guid: aa5438cbaf0735549876721db0417ef2, type: 2}
+--- !u!114 &1864766714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864766709}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c402d030dad0591429005db630f84750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
+  platformPrefab: {fileID: 7194535778442408675, guid: f14720547ab9e7e4b92f8dfaad849fc9,
+    type: 3}
+  yourNewMaterial: {fileID: 2100000, guid: aa5438cbaf0735549876721db0417ef2, type: 2}
 --- !u!1 &1873501897
 GameObject:
   m_ObjectHideFlags: 0

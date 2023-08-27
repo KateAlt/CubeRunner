@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: MainData
   m_EditorClassIdentifier: 
   countCubes: 1
-  speedOfMove: 8
+  speedOfMove: 9
   canStart: 0
+  minNumberWall: 5
+  maxNumberWall: 15
+  minSpace: 4
+  maxSpace: 7

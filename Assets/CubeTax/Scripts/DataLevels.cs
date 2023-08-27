@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 [CreateAssetMenu(fileName = "LevelsData", menuName = "ScriptableObjects/LevelsData", order = 17)]
-public class TioList : ScriptableObject
+public class DataLevels : ScriptableObject
 {
 
     [SerializeField, Min(1)]
