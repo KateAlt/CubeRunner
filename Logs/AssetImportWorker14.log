@@ -15,7 +15,7 @@ C:/Users/black/Desktop/CubeTax
 -logFile
 Logs/AssetImportWorker14.log
 -srvPort
-64816
+54951
 Successfully changed project path to: C:/Users/black/Desktop/CubeTax
 C:/Users/black/Desktop/CubeTax
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/black/Desktop/CubeTax
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 953.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1567.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.23f1 (9636b062134a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
@@ -63,51 +63,931 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.080732 seconds.
+Registered in 0.055465 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 Native extension for iOS target not found
-[usbmuxd] Listen thread started
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2317.91 ms, found 3 plugins.
+[usbmuxd] Listen thread started
+Refreshing native plugins compatible for Editor in 645.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 13.366 seconds
+- Completed reload, in  4.866 seconds
 Domain Reload Profiling:
-	ReloadAssembly (13368ms)
-		BeginReloadAssembly (814ms)
+	ReloadAssembly (4869ms)
+		BeginReloadAssembly (449ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (11434ms)
-			LoadAssemblies (811ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1308ms)
-				TypeCache.Initialize (1305ms)
-					TypeCache.ScanAssembly (1298ms)
-				ResolveRequiredComponents (3ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (3723ms)
+			LoadAssemblies (430ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (691ms)
+				TypeCache.Initialize (689ms)
+					TypeCache.ScanAssembly (680ms)
+				ResolveRequiredComponents (2ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (595ms)
-			SetupLoadedEditorAssemblies (8625ms)
+			RebuildScriptCaches (238ms)
+			SetupLoadedEditorAssemblies (2463ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1680ms)
-				SetLoadedEditorAssemblies (299ms)
-				RefreshPlugins (2367ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (2920ms)
-				ProcessInitializeOnLoadMethodAttributes (1347ms)
+				InitializePlatformSupportModulesInManaged (770ms)
+				SetLoadedEditorAssemblies (71ms)
+				RefreshPlugins (646ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (724ms)
+				ProcessInitializeOnLoadMethodAttributes (246ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (2ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.080701 seconds.
+Registered in 0.052670 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 544.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7760ms)
+		BeginReloadAssembly (752ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (196ms)
+		EndReloadAssembly (6326ms)
+			LoadAssemblies (498ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1778ms)
+				TypeCache.Initialize (1697ms)
+					TypeCache.ScanAssembly (1678ms)
+				ResolveRequiredComponents (81ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (392ms)
+			SetupLoadedEditorAssemblies (3323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (129ms)
+				SetLoadedEditorAssemblies (34ms)
+				RefreshPlugins (545ms)
+				BeforeProcessingInitializeOnLoad (588ms)
+				ProcessInitializeOnLoadAttributes (1483ms)
+				ProcessInitializeOnLoadMethodAttributes (488ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (7ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (388.7 KB). Loaded Objects now: 5531.
+Memory consumption went from 0.79 GB to 0.79 GB.
+Total: 16.847700 ms (FindLiveObjects: 1.300100 ms CreateObjectMapping: 1.436400 ms MarkObjects: 13.789100 ms  DeleteObjects: 0.320100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105385.213670 seconds.
+  path: Assets/CubeTax/-Models/CubeWall.prefab
+  artifactKey: Guid(5abe53ec1baf9fd42854c4ff472ecb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Models/CubeWall.prefab using Guid(5abe53ec1baf9fd42854c4ff472ecb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d95c9b91db40335f6f1a1f3949e9ee') in 2.474472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/CubeTax/-Models/CubeUnassigned.prefab
+  artifactKey: Guid(871bb0980ab2a9740af6123ac1f0a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Models/CubeUnassigned.prefab using Guid(871bb0980ab2a9740af6123ac1f0a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a8bb9cb19661edab03c31ca16afe51') in 0.126608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/CubeTax/-Models/coin2.fbx
+  artifactKey: Guid(aa20614e8f7bfba4c8ac7becd6175057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Models/coin2.fbx using Guid(aa20614e8f7bfba4c8ac7becd6175057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ed6f0d83c722b73844f0030f24dc8f') in 0.526857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/CubeTax/-Models/coin.fbx
+  artifactKey: Guid(a9710fb81e223d140a93cd1e8fe329c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Models/coin.fbx using Guid(a9710fb81e223d140a93cd1e8fe329c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fab81eec5e2562fc1d7737f93883e91') in 0.232941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001199 seconds.
+  path: Assets/CubeTax/-Models/CubeAssigned.prefab
+  artifactKey: Guid(193bce1c23a16584c84b552efbc39e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Models/CubeAssigned.prefab using Guid(193bce1c23a16584c84b552efbc39e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c472a00eaa3d5fc637ea903d535d8f') in 0.172693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.364119 seconds.
+  path: Assets/CubeTax/-Materials/Platform 6.mat
+  artifactKey: Guid(9dd9e697374bf3042853e39331dec563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Materials/Platform 6.mat using Guid(9dd9e697374bf3042853e39331dec563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd8daedc7e6249f35dbe5b26bf79dda') in 0.294134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.030575 seconds.
+  path: Assets/CubeTax/-Materials/coinMat.mat
+  artifactKey: Guid(9dd9e697374bf3042853e39331dec563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Materials/coinMat.mat using Guid(9dd9e697374bf3042853e39331dec563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b55514f7efaf8b50f90bb514025389e') in 0.218774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.179468 seconds.
+  path: Assets/CubeTax/-Materials/coinMat.mat
+  artifactKey: Guid(9dd9e697374bf3042853e39331dec563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Materials/coinMat.mat using Guid(9dd9e697374bf3042853e39331dec563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5d845dd6f22af94312fadd211f12ff') in 0.117977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.422221 seconds.
+  path: Assets/CubeTax/-Materials/Platform 6.mat
+  artifactKey: Guid(f1c11fe7e3c3b5e4980402c3e54d5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Materials/Platform 6.mat using Guid(f1c11fe7e3c3b5e4980402c3e54d5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d34d8e2213243cefd78a170f5f2aeef') in 0.198341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.342387 seconds.
+  path: Assets/CubeTax/-Materials/coinMat.mat
+  artifactKey: Guid(f1c11fe7e3c3b5e4980402c3e54d5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Materials/coinMat.mat using Guid(f1c11fe7e3c3b5e4980402c3e54d5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0807885878fcb02e7d058b9dfe0fd2af') in 0.142631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.051299 seconds.
+  path: Assets/CubeTax/-Prefabs/coin2.prefab
+  artifactKey: Guid(c48cccb292be32740a7a2d781cd8004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/coin2.prefab using Guid(c48cccb292be32740a7a2d781cd8004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60274463e856de08c9fc1bd99644ed4') in 0.062327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042948 seconds.
+  path: Assets/CubeTax/-Prefabs/CubePlatform.prefab
+  artifactKey: Guid(f14720547ab9e7e4b92f8dfaad849fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/CubePlatform.prefab using Guid(f14720547ab9e7e4b92f8dfaad849fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c9dbfb8e5a6f4e3982fb9c31e871b5') in 0.255159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002118 seconds.
+  path: Assets/CubeTax/-Prefabs/FinishPlane.prefab
+  artifactKey: Guid(e0fd207389e3d1c46a99fac212b4d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/FinishPlane.prefab using Guid(e0fd207389e3d1c46a99fac212b4d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef22be35b6df3cb42130a26b0d8682') in 0.281539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_9.prefab
+  artifactKey: Guid(ea0c468363cc00f46a6e4a40394d400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_9.prefab using Guid(ea0c468363cc00f46a6e4a40394d400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c188558ebe67f4d59c5110602a72fa') in 2.281579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_3.prefab
+  artifactKey: Guid(5c1dcb68852fc9b44a7f5adc712503d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_3.prefab using Guid(5c1dcb68852fc9b44a7f5adc712503d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0f545dd6b2539fd5ec12a48c213946') in 0.269695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001123 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_10.prefab
+  artifactKey: Guid(499567bb1b2bbaa4c8bb74e193baf9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_10.prefab using Guid(499567bb1b2bbaa4c8bb74e193baf9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c175e7bbbef7f227003563c6689aa6') in 0.290228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_14.prefab
+  artifactKey: Guid(4a03db794c426f0478a0c5fe5ebe7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_14.prefab using Guid(4a03db794c426f0478a0c5fe5ebe7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce92a790cbe71858cceede0e0c1e649a') in 1.780890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_1.prefab
+  artifactKey: Guid(f71f7179fdac9404f9ef6d40ca4712c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_1.prefab using Guid(f71f7179fdac9404f9ef6d40ca4712c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bc50b9e5c5379eef7075df9ca99d99') in 0.233175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002243 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_5.prefab
+  artifactKey: Guid(531c3723b4f5907478576b77bcb7b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_5.prefab using Guid(531c3723b4f5907478576b77bcb7b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fae28ec2b5eb26594aba6219fab7881') in 0.247110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001547 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_6.prefab
+  artifactKey: Guid(2851f461fd166b64497835beaed0026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_6.prefab using Guid(2851f461fd166b64497835beaed0026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e374cebfe78ad68e8e2bcb8c2ab170c') in 0.179228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_15.prefab
+  artifactKey: Guid(891f185e0bdf47c41b41315c73d25ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_15.prefab using Guid(891f185e0bdf47c41b41315c73d25ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6aff95e6949e4c7fb0ef5b93e8af84') in 0.128939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_4.prefab
+  artifactKey: Guid(ec07d1c358383b24497ea982f78d290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_4.prefab using Guid(ec07d1c358383b24497ea982f78d290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897a45936814f56ba65f6d4e60c6dd31') in 0.256836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_8.prefab
+  artifactKey: Guid(8a63da51c5e28434eacea9a15efdeb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_8.prefab using Guid(8a63da51c5e28434eacea9a15efdeb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d783d953e385ef09eb6900ca7f48d40') in 1.450373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001400 seconds.
+  path: Assets/CubeTax/-Prefabs/coin.prefab
+  artifactKey: Guid(c48cccb292be32740a7a2d781cd8004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/coin.prefab using Guid(c48cccb292be32740a7a2d781cd8004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a8436369271b71e3d35b2c52b15e21') in 0.081960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001646 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_8.prefab
+  artifactKey: Guid(8a63da51c5e28434eacea9a15efdeb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_8.prefab using Guid(8a63da51c5e28434eacea9a15efdeb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d783d953e385ef09eb6900ca7f48d40') in 1.850087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001423 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_7.prefab
+  artifactKey: Guid(9a9fcffbae6139a45903a243d3c97da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_7.prefab using Guid(9a9fcffbae6139a45903a243d3c97da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0457b269b4b1137303bf748d0919297') in 0.227384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_13.prefab
+  artifactKey: Guid(2828eddcbaf90dc41b3b5172477a9af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_13.prefab using Guid(2828eddcbaf90dc41b3b5172477a9af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f511b25591fc48923c82da2828e00392') in 0.285367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/CubeTax/-Prefabs/finishLine.prefab
+  artifactKey: Guid(c9c87108948dbf745bab4c3332c460ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/finishLine.prefab using Guid(c9c87108948dbf745bab4c3332c460ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068365f8ba48578e76541cbd838817d7') in 0.248988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_11.prefab
+  artifactKey: Guid(3a1f9652b2c0d1b4caff759aeb21fb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_11.prefab using Guid(3a1f9652b2c0d1b4caff759aeb21fb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eba78b5af29d8cdd2d362596a2a32f4') in 1.696219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_12.prefab
+  artifactKey: Guid(32bc9412df0cfc249b6d2a87590bf9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_12.prefab using Guid(32bc9412df0cfc249b6d2a87590bf9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6347e955aec07fda688713dfe1aa8f3') in 0.406781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_2.prefab
+  artifactKey: Guid(4f7374cb2a08ab94998e6ce14ac76c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_2.prefab using Guid(4f7374cb2a08ab94998e6ce14ac76c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b44aa85fb09331ea19a6dad3194a89') in 2.260091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006600 seconds.
+  path: Assets/CubeTax/-Prefabs/wall_0.prefab
+  artifactKey: Guid(56e679ef217825f499c53f63d2480073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/-Prefabs/wall_0.prefab using Guid(56e679ef217825f499c53f63d2480073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09487efac99045d7f377ffb057abed0f') in 0.178885 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019065 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13832ms)
+		BeginReloadAssembly (1651ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (104ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (393ms)
+		EndReloadAssembly (10985ms)
+			LoadAssemblies (1265ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3389ms)
+				TypeCache.Initialize (3230ms)
+					TypeCache.ScanAssembly (3177ms)
+				ResolveRequiredComponents (159ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (685ms)
+			SetupLoadedEditorAssemblies (5039ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (510ms)
+				SetLoadedEditorAssemblies (92ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (827ms)
+				ProcessInitializeOnLoadAttributes (2467ms)
+				ProcessInitializeOnLoadMethodAttributes (1118ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.4 KB). Loaded Objects now: 5627.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 7.637800 ms (FindLiveObjects: 0.825100 ms CreateObjectMapping: 0.668400 ms MarkObjects: 6.026600 ms  DeleteObjects: 0.115400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169.188821 seconds.
+  path: Assets/CubeTax/Scripts/MainData.asset
+  artifactKey: Guid(fbc9721ed812fc144a8adffba6d305d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/Scripts/MainData.asset using Guid(fbc9721ed812fc144a8adffba6d305d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f457c63810e9b8c18caadbda79c79e03') in 0.204046 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8956ms)
+		BeginReloadAssembly (1651ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (75ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (383ms)
+		EndReloadAssembly (6087ms)
+			LoadAssemblies (1269ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2668ms)
+				TypeCache.Initialize (2588ms)
+					TypeCache.ScanAssembly (2577ms)
+				ResolveRequiredComponents (80ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (2394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (159ms)
+				SetLoadedEditorAssemblies (1241ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (547ms)
+				ProcessInitializeOnLoadMethodAttributes (206ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.4 KB). Loaded Objects now: 5631.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 7.916100 ms (FindLiveObjects: 0.536200 ms CreateObjectMapping: 0.827000 ms MarkObjects: 6.435600 ms  DeleteObjects: 0.115400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019286 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 11.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 21.181 seconds
+Domain Reload Profiling:
+	ReloadAssembly (21188ms)
+		BeginReloadAssembly (1802ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (103ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (412ms)
+		EndReloadAssembly (16849ms)
+			LoadAssemblies (1423ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (4151ms)
+				TypeCache.Initialize (3982ms)
+					TypeCache.ScanAssembly (3927ms)
+				ResolveRequiredComponents (169ms)
+			ReleaseScriptCaches (16ms)
+			RebuildScriptCaches (694ms)
+			SetupLoadedEditorAssemblies (9730ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (491ms)
+				SetLoadedEditorAssemblies (83ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (1110ms)
+				ProcessInitializeOnLoadAttributes (6923ms)
+				ProcessInitializeOnLoadMethodAttributes (1018ms)
+				AfterProcessingInitializeOnLoad (90ms)
+				EditorAssembliesLoaded (4ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (173ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 24.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.3 KB). Loaded Objects now: 5635.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 124.527200 ms (FindLiveObjects: 102.506100 ms CreateObjectMapping: 0.833800 ms MarkObjects: 21.067900 ms  DeleteObjects: 0.117300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031154 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12838ms)
+		BeginReloadAssembly (1305ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (65ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (345ms)
+		EndReloadAssembly (10349ms)
+			LoadAssemblies (1006ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3108ms)
+				TypeCache.Initialize (2991ms)
+					TypeCache.ScanAssembly (2956ms)
+				ResolveRequiredComponents (117ms)
+			ReleaseScriptCaches (12ms)
+			RebuildScriptCaches (545ms)
+			SetupLoadedEditorAssemblies (4763ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (378ms)
+				SetLoadedEditorAssemblies (57ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (1035ms)
+				ProcessInitializeOnLoadAttributes (2562ms)
+				ProcessInitializeOnLoadMethodAttributes (603ms)
+				AfterProcessingInitializeOnLoad (121ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (212ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.3 KB). Loaded Objects now: 5639.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 13.082700 ms (FindLiveObjects: 3.373700 ms CreateObjectMapping: 0.931600 ms MarkObjects: 8.225000 ms  DeleteObjects: 0.550000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016882 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.069 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7075ms)
+		BeginReloadAssembly (740ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (171ms)
+		EndReloadAssembly (5723ms)
+			LoadAssemblies (570ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1570ms)
+				TypeCache.Initialize (1503ms)
+					TypeCache.ScanAssembly (1481ms)
+				ResolveRequiredComponents (67ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (295ms)
+			SetupLoadedEditorAssemblies (2846ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (363ms)
+				SetLoadedEditorAssemblies (28ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (438ms)
+				ProcessInitializeOnLoadAttributes (1468ms)
+				ProcessInitializeOnLoadMethodAttributes (497ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (105ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.4 KB). Loaded Objects now: 5643.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 18.018200 ms (FindLiveObjects: 0.962100 ms CreateObjectMapping: 1.382900 ms MarkObjects: 15.517000 ms  DeleteObjects: 0.154000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016821 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10887ms)
+		BeginReloadAssembly (1146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (54ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (323ms)
+		EndReloadAssembly (8730ms)
+			LoadAssemblies (823ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2500ms)
+				TypeCache.Initialize (2284ms)
+					TypeCache.ScanAssembly (2255ms)
+				ResolveRequiredComponents (216ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (455ms)
+			SetupLoadedEditorAssemblies (4226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (308ms)
+				SetLoadedEditorAssemblies (47ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (668ms)
+				ProcessInitializeOnLoadAttributes (2156ms)
+				ProcessInitializeOnLoadMethodAttributes (967ms)
+				AfterProcessingInitializeOnLoad (74ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (169ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.4 KB). Loaded Objects now: 5647.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 23.890200 ms (FindLiveObjects: 1.348500 ms CreateObjectMapping: 3.196200 ms MarkObjects: 19.139300 ms  DeleteObjects: 0.203600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020924 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9528ms)
+		BeginReloadAssembly (1169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (282ms)
+		EndReloadAssembly (7386ms)
+			LoadAssemblies (955ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2818ms)
+				TypeCache.Initialize (2711ms)
+					TypeCache.ScanAssembly (2672ms)
+				ResolveRequiredComponents (107ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (576ms)
+			SetupLoadedEditorAssemblies (2423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (234ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (333ms)
+				ProcessInitializeOnLoadAttributes (1327ms)
+				ProcessInitializeOnLoadMethodAttributes (464ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (96ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.3 KB). Loaded Objects now: 5651.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 28.972700 ms (FindLiveObjects: 0.954200 ms CreateObjectMapping: 1.561700 ms MarkObjects: 26.338000 ms  DeleteObjects: 0.116300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018752 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9272ms)
+		BeginReloadAssembly (2561ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (180ms)
+		EndReloadAssembly (6309ms)
+			LoadAssemblies (2326ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3589ms)
+				TypeCache.Initialize (3301ms)
+					TypeCache.ScanAssembly (3287ms)
+				ResolveRequiredComponents (289ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (457ms)
+			SetupLoadedEditorAssemblies (1654ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (295ms)
+				SetLoadedEditorAssemblies (42ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (251ms)
+				ProcessInitializeOnLoadAttributes (679ms)
+				ProcessInitializeOnLoadMethodAttributes (358ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 18.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.4 KB). Loaded Objects now: 5655.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 27.763100 ms (FindLiveObjects: 1.714200 ms CreateObjectMapping: 1.322200 ms MarkObjects: 24.556700 ms  DeleteObjects: 0.167600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.072056 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 6.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9867ms)
+		BeginReloadAssembly (1048ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (49ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (274ms)
+		EndReloadAssembly (7810ms)
+			LoadAssemblies (782ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2187ms)
+				TypeCache.Initialize (2128ms)
+					TypeCache.ScanAssembly (2107ms)
+				ResolveRequiredComponents (59ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (380ms)
+			SetupLoadedEditorAssemblies (3700ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (418ms)
+				SetLoadedEditorAssemblies (47ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (913ms)
+				ProcessInitializeOnLoadAttributes (1736ms)
+				ProcessInitializeOnLoadMethodAttributes (533ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (92ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.3 KB). Loaded Objects now: 5659.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 18.583900 ms (FindLiveObjects: 0.676400 ms CreateObjectMapping: 1.345200 ms MarkObjects: 16.444500 ms  DeleteObjects: 0.115500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 437.678494 seconds.
+  path: Assets/CubeTax/Scripts/MainData.asset
+  artifactKey: Guid(fbc9721ed812fc144a8adffba6d305d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/Scripts/MainData.asset using Guid(fbc9721ed812fc144a8adffba6d305d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb053a9eb556b905b76214c4e3b42e6b') in 0.181415 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018840 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\black\Desktop\CubeTax\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4266ms)
+		BeginReloadAssembly (521ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (3428ms)
+			LoadAssemblies (442ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1226ms)
+				TypeCache.Initialize (1196ms)
+					TypeCache.ScanAssembly (1186ms)
+				ResolveRequiredComponents (30ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (1665ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (122ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (422ms)
+				ProcessInitializeOnLoadAttributes (823ms)
+				ProcessInitializeOnLoadMethodAttributes (247ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.4 KB). Loaded Objects now: 5663.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 29.494700 ms (FindLiveObjects: 1.830000 ms CreateObjectMapping: 4.040500 ms MarkObjects: 22.964000 ms  DeleteObjects: 0.657000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.181525 seconds.
+  path: Assets/CubeTax/Scripts/MainData.asset
+  artifactKey: Guid(fbc9721ed812fc144a8adffba6d305d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CubeTax/Scripts/MainData.asset using Guid(fbc9721ed812fc144a8adffba6d305d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad0003424521571295f6576b3143f88') in 0.116494 seconds 

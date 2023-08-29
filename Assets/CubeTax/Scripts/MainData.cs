@@ -11,8 +11,8 @@ public class MainData : ScriptableObject
     public bool canStart;
 
     [Header("Level Settings")]
-    public int minNumberWall;
-    public int maxNumberWall;
+    public int minCountWall;
+    public int maxCountWall;
 
     public int minSpace;
     public int maxSpace;

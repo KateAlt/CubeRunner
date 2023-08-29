@@ -27,7 +27,7 @@ public class BootstrapperTwo : MonoBehaviour
 
     private void Start()
     {
-        numberOfWalls = Random.Range(4, 15);
+        numberOfWalls = Random.Range(mainData.minCountWall, mainData.maxCountWall);
         Setup();
         InstantiatePlatforms();
         InstantiateCubeAndWall();
@@ -38,7 +38,7 @@ public class BootstrapperTwo : MonoBehaviour
 
     private void Setup()
     {
-        sizeOfSpaces = GenerateRandomSpaces(numberOfWalls, 2, 4);
+        sizeOfSpaces = GenerateRandomSpaces(numberOfWalls, mainData.minSpace, mainData.maxSpace);
         totalPlatforms = ((numberOfWalls * 3) / 5) + ((sizeOfSpaces.Sum() * 3) / 5) + 4;
     }
 

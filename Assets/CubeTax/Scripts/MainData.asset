@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ddc63ec70a5ba4482fabda9a2c8801, type: 3}
   m_Name: MainData
   m_EditorClassIdentifier: 
+  level: 0
   countCubes: 1
   speedOfMove: 9
   canStart: 0
-  minNumberWall: 5
-  maxNumberWall: 15
-  minSpace: 4
-  maxSpace: 7
+  minCountWall: 10
+  maxCountWall: 30
+  minSpace: 2
+  maxSpace: 3
