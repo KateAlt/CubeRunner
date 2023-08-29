@@ -4018,7 +4018,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1864766711}
-  - component: {fileID: 1864766713}
   m_Layer: 0
   m_Name: bootstrapper
   m_TagString: Untagged
@@ -4041,48 +4040,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1864766713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864766709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0d7df17af887284ea8af7654055484b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
-  ColorSchems: {fileID: 11400000, guid: 6fcb4154eb0d6cf4fbc5c5138eff0c16, type: 2}
-  numberOfWalls: 30
-  platformPrefab: {fileID: 7194535778442408675, guid: f14720547ab9e7e4b92f8dfaad849fc9,
-    type: 3}
-  cubePrefab: {fileID: 7095014526371716685, guid: 871bb0980ab2a9740af6123ac1f0a06d,
-    type: 3}
-  wallPrefabs:
-  - {fileID: 8251311377740275539, guid: 56e679ef217825f499c53f63d2480073, type: 3}
-  - {fileID: 2856755318851780575, guid: f71f7179fdac9404f9ef6d40ca4712c9, type: 3}
-  - {fileID: 4773123217933757687, guid: 4f7374cb2a08ab94998e6ce14ac76c61, type: 3}
-  - {fileID: 1482572853940540905, guid: 5c1dcb68852fc9b44a7f5adc712503d8, type: 3}
-  - {fileID: 7738247766391352357, guid: ec07d1c358383b24497ea982f78d290f, type: 3}
-  - {fileID: 668892154830073860, guid: 531c3723b4f5907478576b77bcb7b8f7, type: 3}
-  - {fileID: 3360128285858435128, guid: 2851f461fd166b64497835beaed0026a, type: 3}
-  - {fileID: 6681976359331264166, guid: 9a9fcffbae6139a45903a243d3c97da5, type: 3}
-  - {fileID: 1000175597477871476, guid: 8a63da51c5e28434eacea9a15efdeb6a, type: 3}
-  - {fileID: 4924536914951444961, guid: ea0c468363cc00f46a6e4a40394d400d, type: 3}
-  - {fileID: 6920487921489373103, guid: 499567bb1b2bbaa4c8bb74e193baf9eb, type: 3}
-  - {fileID: 1146000654380559883, guid: 3a1f9652b2c0d1b4caff759aeb21fb00, type: 3}
-  - {fileID: 3091680266094610110, guid: 32bc9412df0cfc249b6d2a87590bf9f6, type: 3}
-  - {fileID: 2674973361814543586, guid: 2828eddcbaf90dc41b3b5172477a9af1, type: 3}
-  - {fileID: 8032963024307598556, guid: 4a03db794c426f0478a0c5fe5ebe7177, type: 3}
-  - {fileID: 3611630418611380627, guid: 891f185e0bdf47c41b41315c73d25ae7, type: 3}
-  finishCirclePrefab: {fileID: 5705281722511937593, guid: c9c87108948dbf745bab4c3332c460ee,
-    type: 3}
-  finishPlanePrefab: {fileID: 4846425020050926773, guid: e0fd207389e3d1c46a99fac212b4d78c,
-    type: 3}
-  directionalLightObject: {fileID: 410087039}
-  yourNewMaterial: {fileID: 2100000, guid: e393c1217bb03fd44accbfbc84174bd4, type: 2}
 --- !u!1 &1873501897
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f0d7df17af887284ea8af7654055484b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}
+  - ColorSchems: {fileID: 11400000, guid: 6fcb4154eb0d6cf4fbc5c5138eff0c16, type: 2}
+  - platformPrefab: {instanceID: 0}
+  - cubePrefab: {instanceID: 0}
+  - finishCirclePrefab: {instanceID: 0}
+  - finishPlanePrefab: {instanceID: 0}
+  - directionalLightObject: {instanceID: 0}
+  - yourNewMaterial: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class BootstrapperTwo : MonoBehaviour
+public class BootstrapperRandomer : MonoBehaviour
 {
     public MainData mainData;
     public ColorSchems ColorSchems;
@@ -97,7 +97,7 @@ public class BootstrapperTwo : MonoBehaviour
         {
             for (int i = 1; i <= spaceSize; i++)
             {
-                if(Random.Range(0, 2) == 1)
+                if(Random.Range(0, 3) == 0)
                 {
                     Vector3 cubePosition = new Vector3((float)Random.Range(-2, 2), height, countPosition * cubeSpacing);
                     GameObject newPlatform = Instantiate(cubePrefab, cubePosition, Quaternion.identity);
