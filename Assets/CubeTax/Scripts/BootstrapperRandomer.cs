@@ -6,12 +6,9 @@ using System.Linq;
 public class BootstrapperRandomer : MonoBehaviour
 {
     public MainData mainData;
-    // public ColorSchemes colorSchemes;
-    // public Color[] selectedColor;
 
     public GameObject platformPrefab;
     public GameObject cubePrefab;
-    public GameObject coinPrefab;
     public GameObject[] wallPrefabs;
     public GameObject finishCirclePrefab;
     public GameObject finishPlanePrefab;
@@ -26,34 +23,10 @@ public class BootstrapperRandomer : MonoBehaviour
 
     private void Start()
     {
-        // InitializeColorSchemes();
         Setup();
         InstantiatePlatforms();
         InstantiateCubeAndWall();
-        // SetDirectionalLightColor();
     }
-
-    // private void InitializeColorSchemes()
-    // {
-        // int randomIndex = Random.Range(0, 3);
-    //     int randomIndex = 1;
-        
-    //     if (randomIndex == 0)
-    //     {
-    //         selectedColor = colorSchemes.greenColor;
-    //     }
-    //     else if (randomIndex == 1)
-    //     {
-    //         selectedColor = colorSchemes.orangeColor;
-    //     }
-    //     else if (randomIndex == 2)
-    //     {
-    //         selectedColor = colorSchemes.blueColor;
-    //     }
-        
-    //     RenderSettings.skybox.SetColor("_Tint", selectedColor[1]);
-    //     directionalLight = directionalLightObject.GetComponent<Light>();
-    // }
 
     private void Setup()
     {
@@ -97,7 +70,6 @@ public class BootstrapperRandomer : MonoBehaviour
         {
             Vector3 platformPosition = Vector3.forward * i * platformSpacing;
             GameObject newPlatform = Instantiate(platformPrefab, platformPosition, Quaternion.identity);
-            // ColoredObj(newPlatform, selectedColor[2]);
             
             countPositionPlatform++;
             positionKK = Vector3.forward * i * platformSpacing;
@@ -135,12 +107,6 @@ public class BootstrapperRandomer : MonoBehaviour
                     GameObject newCube = Instantiate(cubePrefab, cubePosition, Quaternion.identity);
                     countPosition++;
                 }
-                else if (point == 1)
-                {
-                    Vector3 cubePosition = new Vector3(Random.Range(-2f, 2f), height, countPosition * cubeSpacing);
-                    GameObject newCube = Instantiate(coinPrefab, cubePosition, Quaternion.identity);
-                    countPosition++;
-                }
                 else
                 {
                     countPosition++;
@@ -149,21 +115,8 @@ public class BootstrapperRandomer : MonoBehaviour
 
             Vector3 wallPosition = new Vector3(0f, 0f, countPosition * cubeSpacing);
             GameObject newWall = Instantiate(wallPrefabs[wallKind[m]], wallPosition, Quaternion.identity);
-            // ColoredObj(newWall, selectedColor[3]);
             m++;
             countPosition++;
         }
     }
-
-    // private void SetDirectionalLightColor()
-    // {
-    //     directionalLight.color = selectedColor[0];
-    // }
-
-    // private void ColoredObj(GameObject obj, Color selectedCol)
-    // {
-    //     Renderer renderer = obj.GetComponent<Renderer>();
-    //     renderer.material = yourNewMaterial;
-    //     renderer.material.color = selectedCol;
-    // }
 }

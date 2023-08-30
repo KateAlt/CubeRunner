@@ -11,7 +11,6 @@ public class UIController : MonoBehaviour
     public Image imageToUpdate;
     public Sprite playSprite;
     public Sprite pauseSprite;
-    public Text textObject;
 
     public void PauseMenu()
     {
@@ -34,10 +33,5 @@ public class UIController : MonoBehaviour
         {
             imageToUpdate.sprite = pauseSprite;
         }
-    }
-
-    void Update()
-    {
-        textObject.text = mainData.countCoin.ToString();
     }
 }
