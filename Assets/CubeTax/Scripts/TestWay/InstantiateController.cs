@@ -32,7 +32,7 @@
 //         Instantiate(finishPlanePrefab, finishPlanePosition, Quaternion.identity);
 //     }
 
-//     public void InstantiateCubes(PositionOfCube[] cubes)
+//     public void InstantiateCubes(Vector3[] cubes)
 //     {
 //         for (int i = 0; i < cubes.Length; i++)
 //         {
@@ -40,7 +40,7 @@
 //         }
 //     }
 
-//     private void InstantiateWall(PositionOfWall[] walls)
+//     private void InstantiateWall(Vector3[] walls)
 //     {
 //         for (int i = 0; i < LevelsData.casesWall.Length; i++)
 //         {

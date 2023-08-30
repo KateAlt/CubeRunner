@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 0
   countCubes: 1
-  speedOfMove: 10
+  speedOfMove: 11
   canStart: 0
-  minCountWall: 10
-  maxCountWall: 30
-  minSpace: 2
-  maxSpace: 3
+  minCountWall: 50
+  maxCountWall: 80
+  minSpace: 1
+  maxSpace: 4

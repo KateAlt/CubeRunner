@@ -12,7 +12,7 @@ public class PlatfonmMechanics : MonoBehaviour
         { 
             transform.Translate(Vector3.back * MainData.speedOfMove * Time.deltaTime);
 
-            if(transform.position.z < -6){
+            if(transform.position.z < -7){
                 Destroy(gameObject);
             }
         }

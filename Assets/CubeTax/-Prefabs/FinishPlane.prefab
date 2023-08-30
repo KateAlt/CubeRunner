@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4846425020050926772}
   - component: {fileID: 4846425020050926771}
   m_Layer: 0
-  m_Name: FinishPlane
+  m_Name: finishPlane
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

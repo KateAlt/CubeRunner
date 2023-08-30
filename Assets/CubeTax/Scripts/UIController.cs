@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public MainData MainData;
+    public MainData mainData;
     public GameObject uiPauseMenu;
     
-    public Image imageToUpdate; // Reference to the UI Image component
-    public Sprite playSprite;    // The new sprite you want to assign
-    public Sprite pauseSprite;    // The new sprite you want to assign
+    public Image imageToUpdate;
+    public Sprite playSprite;
+    public Sprite pauseSprite;
+    public Text textObject;
 
     public void PauseMenu()
     {
-        MainData.canStart = false;
+        mainData.canStart = false;
         uiPauseMenu.SetActive(true);
         ChangeSprite();
     }
@@ -26,12 +27,17 @@ public class UIController : MonoBehaviour
         {
             imageToUpdate.sprite = playSprite;
             uiPauseMenu.SetActive(false);
-            MainData.canStart = true;
+            mainData.canStart = true;
 
         }
         else
         {
             imageToUpdate.sprite = pauseSprite;
         }
+    }
+
+    void Update()
+    {
+        textObject.text = mainData.countCoin.ToString();
     }
 }

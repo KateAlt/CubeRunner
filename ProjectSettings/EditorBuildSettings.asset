@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/CubeTax/Scenes/Test.unity
+    guid: 4304c9e90dfe37a4ea17e523005b4cb9
+  - enabled: 1
     path: Assets/CubeTax/Scenes/GameArea.unity
     guid: 99fd87c081d725a46aa5c8f72e75bc46
   - enabled: 1

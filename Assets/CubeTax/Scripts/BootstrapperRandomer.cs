@@ -6,53 +6,67 @@ using System.Linq;
 public class BootstrapperRandomer : MonoBehaviour
 {
     public MainData mainData;
-    public ColorSchems ColorSchems;
-
-    public int numberOfWalls;
-
-    private int[] sizeOfSpaces;
-    
-    private int totalPlatforms;
+    public ColorSchemes ColorSchemes;
 
     public GameObject platformPrefab;
     public GameObject cubePrefab;
+    public GameObject coinPrefab;
     public GameObject[] wallPrefabs;
     public GameObject finishCirclePrefab;
     public GameObject finishPlanePrefab;
-
     public GameObject directionalLightObject;
-	private Light directionalLight;
-
     public Material yourNewMaterial;
+
+    private Light directionalLight;
+    private int numberOfWalls;
+    private int[] wallKind;
+    private int[] sizeOfSpaces;
+    private int totalPlatforms;
 
     private void Start()
     {
-        numberOfWalls = Random.Range(mainData.minCountWall, mainData.maxCountWall);
+        Initialize();
         Setup();
         InstantiatePlatforms();
         InstantiateCubeAndWall();
+        SetDirectionalLightColor();
+    }
 
+    private void Initialize()
+    {
         directionalLight = directionalLightObject.GetComponent<Light>();
-        directionalLight.color = ColorSchems.lightOrangeColor;
     }
 
     private void Setup()
     {
-        sizeOfSpaces = GenerateRandomSpaces(numberOfWalls, mainData.minSpace, mainData.maxSpace);
+        numberOfWalls = Random.Range(mainData.minCountWall, mainData.maxCountWall);
+
+        wallKind = GenerateRandomSpaces(numberOfWalls, 1, wallPrefabs.Length, "wall Kind");
+        sizeOfSpaces = GenerateRandomSpaces(numberOfWalls, mainData.minSpace, mainData.maxSpace, "size of spaces");
+
         totalPlatforms = ((numberOfWalls * 3) / 5) + ((sizeOfSpaces.Sum() * 3) / 5) + 4;
     }
 
-    private int[] GenerateRandomSpaces(int count, int minValue, int maxValue)
+    private int[] GenerateRandomSpaces(int count, int minValue, int maxValue, string text)
     {
         int[] sizes = new int[count];
+        sizes[0] = Random.Range(minValue, maxValue);
 
-        for (int i = 0; i < count; i++)
+        for (int i = 1; i < sizes.Length; i++)
         {
-            sizes[i] = Random.Range(minValue, maxValue);
+            int x = Random.Range(minValue, maxValue);
+
+            if (x != sizes[i - 1])
+                sizes[i] = x;
+            else
+                i--;
         }
 
+        foreach (int size in sizes)
+        {
+            Debug.Log(size + " " + text);
+        }
         return sizes;
-        //! додати перевірку чи не багато співпадінь
     }
 
     private void InstantiatePlatforms()
@@ -65,18 +79,16 @@ public class BootstrapperRandomer : MonoBehaviour
         {
             Vector3 platformPosition = Vector3.forward * i * platformSpacing;
             GameObject newPlatform = Instantiate(platformPrefab, platformPosition, Quaternion.identity);
-            Renderer renderer = newPlatform.GetComponent<Renderer>();
-            renderer.material = yourNewMaterial;
-            renderer.material.color = new Color(1f, 0.6431373f, 0.2039215f);
-
-            countPositionPlatform ++;
+            InitializeRenderer(newPlatform);
+            
+            countPositionPlatform++;
             positionKK = Vector3.forward * i * platformSpacing;
         }
 
-        
-        Instantiate(platformPrefab, positionKK, Quaternion.identity);
-        Instantiate(platformPrefab, positionKK + new Vector3(0f, 0f, 5f), Quaternion.identity);
-        Instantiate(platformPrefab, positionKK + new Vector3(0f, 0f, 10f), Quaternion.identity);
+        for (int i = 0; i < 3; i++)
+        {
+            Instantiate(platformPrefab, positionKK + new Vector3(0f, 0f, i * platformSpacing), Quaternion.identity);
+        }
 
         Instantiate(finishCirclePrefab, positionKK + new Vector3(0f, 1.7f, 10f), Quaternion.identity);
         Instantiate(finishPlanePrefab, positionKK + new Vector3(0f, 0.55f, 10f), Quaternion.identity);
@@ -89,36 +101,50 @@ public class BootstrapperRandomer : MonoBehaviour
         int countPosition = 4;
 
         Instantiate(cubePrefab, new Vector3(0f, 1f, 3f), Quaternion.identity);
-        Instantiate(cubePrefab, new Vector3((float)Random.Range(-2, 2), 1f, 6f), Quaternion.identity);
-        
+        Instantiate(cubePrefab, new Vector3(Random.Range(-2f, 2f), 1f, 6f), Quaternion.identity);
+
         Instantiate(wallPrefabs[Random.Range(1, wallPrefabs.Length)], new Vector3(0f, 0f, 9f), Quaternion.identity);
+        int m = 0;
 
         foreach (int spaceSize in sizeOfSpaces)
         {
             for (int i = 1; i <= spaceSize; i++)
             {
-                if(Random.Range(0, 3) == 0)
+                int point = Random.Range(0, 3);
+                if (point == 0)
                 {
-                    Vector3 cubePosition = new Vector3((float)Random.Range(-2, 2), height, countPosition * cubeSpacing);
-                    GameObject newPlatform = Instantiate(cubePrefab, cubePosition, Quaternion.identity);
-                    Renderer renderer = newPlatform.GetComponent<Renderer>();
-                    renderer.material = yourNewMaterial;
-                    renderer.material.color = new Color(1f, 0.6431373f, 0.2039215f);
+                    Vector3 cubePosition = new Vector3(Random.Range(-2f, 2f), height, countPosition * cubeSpacing);
+                    GameObject newCube = Instantiate(cubePrefab, cubePosition, Quaternion.identity);
+                    countPosition++;
+                }
+                else if (point == 1)
+                {
+                    Vector3 cubePosition = new Vector3(Random.Range(-2f, 2f), height, countPosition * cubeSpacing);
+                    GameObject newCube = Instantiate(coinPrefab, cubePosition, Quaternion.identity);
                     countPosition++;
                 }
                 else
                 {
-                    Debug.Log("Nothing");
                     countPosition++;
                 }
-                
             }
 
             Vector3 wallPosition = new Vector3(0f, 0f, countPosition * cubeSpacing);
-            Instantiate(wallPrefabs[Random.Range(1, wallPrefabs.Length)], wallPosition, Quaternion.identity);
+            Instantiate(wallPrefabs[wallKind[m]], wallPosition, Quaternion.identity);
+            m++;
             countPosition++;
-            Debug.Log(countPosition);
         }
     }
 
+    private void SetDirectionalLightColor()
+    {
+        directionalLight.color = ColorSchemes.lightOrangeColor;
+    }
+
+    private void InitializeRenderer(GameObject obj)
+    {
+        Renderer renderer = obj.GetComponent<Renderer>();
+        renderer.material = yourNewMaterial;
+        renderer.material.color = new Color(1f, 0.6431373f, 0.2039215f);
+    }
 }

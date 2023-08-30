@@ -7,7 +7,9 @@ public class MainData : ScriptableObject
 {   
     public int level;
     public int countCubes;
-    public float speedOfMove = 5;
+    public int mainCountCoin;
+    public int countCoin;
+    public float speedOfMove;
     public bool canStart;
 
     [Header("Level Settings")]
