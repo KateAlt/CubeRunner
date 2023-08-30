@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: MainData
   m_EditorClassIdentifier: 
   level: 0
-  countCubes: 1
-  speedOfMove: 11
+  countCubes: 0
+  mainCountCoin: 100
+  countCoin: 0
+  speedOfMove: 8
   canStart: 0
-  minCountWall: 50
-  maxCountWall: 80
+  minCountWall: 60
+  maxCountWall: 100
   minSpace: 1
   maxSpace: 4

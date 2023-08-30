@@ -6,20 +6,11 @@ using UnityEngine;
 public class ColorSchemes : ScriptableObject
 {
     [Header("Green")]
-    public Color lightGreenColor;
-    public Color skyGreenColor;
-    public Color platformGreenColor;
-    public Color wallGreenColor;
+    public Color[] greenColor;
 
     [Header("Orange")]
-    public Color lightOrangeColor;
-    public Color skyOrangeColor;
-    public Color platformOrangeColor;
-    public Color wallOrangeColor;
+    public Color[] orangeColor;
 
     [Header("Blue")]
-    public Color lightBlueColor;
-    public Color skyBlueColor;
-    public Color platformBlueColor;
-    public Color wallBlueColor;
+    public Color[] blueColor;
 }

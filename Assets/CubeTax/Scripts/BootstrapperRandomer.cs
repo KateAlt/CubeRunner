@@ -6,7 +6,8 @@ using System.Linq;
 public class BootstrapperRandomer : MonoBehaviour
 {
     public MainData mainData;
-    public ColorSchemes ColorSchemes;
+    // public ColorSchemes colorSchemes;
+    // public Color[] selectedColor;
 
     public GameObject platformPrefab;
     public GameObject cubePrefab;
@@ -25,17 +26,34 @@ public class BootstrapperRandomer : MonoBehaviour
 
     private void Start()
     {
-        Initialize();
+        // InitializeColorSchemes();
         Setup();
         InstantiatePlatforms();
         InstantiateCubeAndWall();
-        SetDirectionalLightColor();
+        // SetDirectionalLightColor();
     }
 
-    private void Initialize()
-    {
-        directionalLight = directionalLightObject.GetComponent<Light>();
-    }
+    // private void InitializeColorSchemes()
+    // {
+        // int randomIndex = Random.Range(0, 3);
+    //     int randomIndex = 1;
+        
+    //     if (randomIndex == 0)
+    //     {
+    //         selectedColor = colorSchemes.greenColor;
+    //     }
+    //     else if (randomIndex == 1)
+    //     {
+    //         selectedColor = colorSchemes.orangeColor;
+    //     }
+    //     else if (randomIndex == 2)
+    //     {
+    //         selectedColor = colorSchemes.blueColor;
+    //     }
+        
+    //     RenderSettings.skybox.SetColor("_Tint", selectedColor[1]);
+    //     directionalLight = directionalLightObject.GetComponent<Light>();
+    // }
 
     private void Setup()
     {
@@ -79,7 +97,7 @@ public class BootstrapperRandomer : MonoBehaviour
         {
             Vector3 platformPosition = Vector3.forward * i * platformSpacing;
             GameObject newPlatform = Instantiate(platformPrefab, platformPosition, Quaternion.identity);
-            InitializeRenderer(newPlatform);
+            // ColoredObj(newPlatform, selectedColor[2]);
             
             countPositionPlatform++;
             positionKK = Vector3.forward * i * platformSpacing;
@@ -130,21 +148,22 @@ public class BootstrapperRandomer : MonoBehaviour
             }
 
             Vector3 wallPosition = new Vector3(0f, 0f, countPosition * cubeSpacing);
-            Instantiate(wallPrefabs[wallKind[m]], wallPosition, Quaternion.identity);
+            GameObject newWall = Instantiate(wallPrefabs[wallKind[m]], wallPosition, Quaternion.identity);
+            // ColoredObj(newWall, selectedColor[3]);
             m++;
             countPosition++;
         }
     }
 
-    private void SetDirectionalLightColor()
-    {
-        directionalLight.color = ColorSchemes.lightOrangeColor;
-    }
+    // private void SetDirectionalLightColor()
+    // {
+    //     directionalLight.color = selectedColor[0];
+    // }
 
-    private void InitializeRenderer(GameObject obj)
-    {
-        Renderer renderer = obj.GetComponent<Renderer>();
-        renderer.material = yourNewMaterial;
-        renderer.material.color = new Color(1f, 0.6431373f, 0.2039215f);
-    }
+    // private void ColoredObj(GameObject obj, Color selectedCol)
+    // {
+    //     Renderer renderer = obj.GetComponent<Renderer>();
+    //     renderer.material = yourNewMaterial;
+    //     renderer.material.color = selectedCol;
+    // }
 }
