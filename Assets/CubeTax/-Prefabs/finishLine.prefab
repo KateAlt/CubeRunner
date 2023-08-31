@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5472744726676836748}
   - component: {fileID: 8961252588061728297}
   - component: {fileID: 6609090220206385891}
+  - component: {fileID: 8208941194548457409}
   m_Layer: 0
   m_Name: finishLine
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8961252588061728297
 MeshFilter:
@@ -84,3 +85,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8208941194548457409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663698389559888694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3d259fe132853438d68403656304a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainData: {fileID: 11400000, guid: fbc9721ed812fc144a8adffba6d305d7, type: 2}

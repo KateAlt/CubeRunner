@@ -12,26 +12,47 @@ public class UIController : MonoBehaviour
     public Sprite playSprite;
     public Sprite pauseSprite;
 
-    public void PauseMenu()
-    {
-        mainData.canStart = false;
-        uiPauseMenu.SetActive(true);
-        ChangeSprite();
-    }
+    private Coroutine restartCoroutine;
 
     
-    void ChangeSprite()
+    public void PauseAndPlayButton()
     {
-        if(imageToUpdate.sprite == pauseSprite)
+        if (imageToUpdate.sprite == pauseSprite)
         {
             imageToUpdate.sprite = playSprite;
-            uiPauseMenu.SetActive(false);
-            mainData.canStart = true;
-
+            uiPauseMenu.SetActive(true);
+            mainData.canStart = false;
+            if (restartCoroutine != null)
+            {
+                StopCoroutine(restartCoroutine);
+            }
         }
         else
         {
+            mainData.canStart = true;
+            uiPauseMenu.SetActive(false);
             imageToUpdate.sprite = pauseSprite;
+            restartCoroutine = StartCoroutine(ReStartData());
+        }
+    }
+
+
+    public void StartCountSpeed()
+    {
+        if (restartCoroutine != null)
+        {
+            StopCoroutine(restartCoroutine);
+        }
+        restartCoroutine = StartCoroutine(ReStartData());
+    }
+
+
+    public IEnumerator ReStartData()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            mainData.speedOfMove += 0.1f;
         }
     }
 }

@@ -12,11 +12,6 @@ public class CharController : MonoBehaviour
     public GameObject uiFall;
     public GameObject uiWin;
 
-    void Start()
-    {
-        StartCoroutine(ReStartData()); // Запускаємо корутину
-    }
-
     void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Cube"))
@@ -33,12 +28,6 @@ public class CharController : MonoBehaviour
             uiWin.SetActive(true);
             
         }
-
-        if (collision.CompareTag("Coin"))
-        {
-            Destroy(collision.gameObject);
-            mainData.countCoin ++;
-        }
     }
 
     void Update()
@@ -50,20 +39,10 @@ public class CharController : MonoBehaviour
             uiFall.SetActive(true);
         }
     }
-    IEnumerator ReStartData()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(1f);
-            mainData.speedOfMove += 0.1f;
-        }
-    }
 
     void OnDisable()
     {
         mainData.speedOfMove = 7f;
-        mainData.mainCountCoin += mainData.countCoin;
-        mainData.countCoin = 0;
         mainData.countCubes = 0;
         mainData.canStart = false;
     }
