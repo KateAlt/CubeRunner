@@ -2,7 +2,7 @@
 **Hypercasual Game**
 
 ## APK
-[CubeTax_00.01.10.apk]([шлях_до_файлу](https://github.com/KateAlt/PresentationResources/blob/main/APK/CubeTax_00.01.10.apk))
+[CubeTax_00.01.10.apk](https://github.com/KateAlt/PresentationResources/blob/main/APK/CubeTax_00.01.10.apk)
 
 ## Project Description
 Cube Tax is a game designed to showcase my skills in hypercasual game development. Despite being in the development stage, it already has a unique concept and gameplay.
