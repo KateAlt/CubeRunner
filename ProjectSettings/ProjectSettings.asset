@@ -16,7 +16,7 @@ PlayerSettings:
   productName: CubeTax
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.6, g: 0.6862745, b: 0.63529414, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.86274517, g: 0.6666667, b: 0.43529415, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -40,8 +40,6 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 24284d7ed53e59e438f4ae3914db45fa, type: 3}
-    duration: 2
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
