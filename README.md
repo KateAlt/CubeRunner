@@ -1,30 +1,30 @@
 # Cube Tax
-**Гіперказуальна гра**
+**Hypercasual Game**
 
-## Опис проекту
-Cube Tax - це гра, яка призначена для демонстрації моїх навичок у розробці гіперказуальних ігор. Незважаючи на те, що гра знаходиться в стадії розробки, вона вже має свою унікальну концепцію та геймплей.
+## Project Description
+Cube Tax is a game designed to showcase my skills in hypercasual game development. Despite being in the development stage, it already has a unique concept and gameplay.
 
-## Геймплей
-У грі ви керуєте кубом і збираєте різні об'єкти, уникайте перешкод і прагнете встановити рекорди. Геймплей простий, але дуже захоплюючий.
+## Gameplay
+In the game, you control a cube and collect various objects, avoid obstacles, and aim to set high scores. The gameplay is simple yet very engaging.
 
-## Скріншоти
+## Screenshots
 ![Геймплей](https://raw.githubusercontent.com/KateAlt/PresentationResources/main/Image/Screenshot_20230831-122259.png?token=GHSAT0AAAAAACGCNQVTDVUUKY4QGNFM35SKZHQRFEA)
 ![Користувацький інтерфейс](https://raw.githubusercontent.com/KateAlt/PresentationResources/main/Image/Screenshot_20230831-122544.png?token=GHSAT0AAAAAACGCNQVT677X5LT5LRNWM262ZHQRGCQ)
 
-## Використані технології
-Проект розроблено з використанням популярних технологій:
+## Technologies Used
+The project is developed using popular technologies:
 - Unity 3D
 - C#
 
-## Плани на майбутнє
-Мої плани на майбутнє включають:
-- Додавання різноманітних кольорових схем оточення.
-- Поліпшення динаміки руху для зроблення гри ще цікавішою.
-- Розробка системи збору монеток, яка додасть новий рівень гри.
-- Інтеграція рекламних блоків за допомогою AdMob для заробітку та збільшення зручності гравців.
-- Додавання анімацій для більшої динаміки та настрою гри.
+## Future Plans
+My future plans include:
+- Adding various colorful environment schemes.
+- Improving the movement dynamics to make the game even more exciting.
+- Developing a coin collection system to add a new layer to the game.
+- Integrating ad blocks using AdMob for monetization and player convenience.
+- Adding animations for more dynamism and atmosphere to the game.
 
-## Автор
-Проект розробив Kazaeva Kate.
-Зв'яжіться зі мною за адресою developmentfedenko@gmail.com.
+## Author
+The project was developed by Kate Kazaeva.
+Contact me at developmentfedenko@gmail.com.
 
