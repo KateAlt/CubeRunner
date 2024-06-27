@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd15ae8d689d45cf8f35e091a5f1ef0, type: 3}
+  m_Name: wallData
+  m_EditorClassIdentifier: 
+  positionOfSpawnWall:
+  - wallConstruction:
+    - {x: -2, y: 0}
+    - {x: 2, y: 0}
+  - wallConstruction:
+    - {x: -1, y: 0}
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+  - wallConstruction:
+    - {x: -2, y: 0}
+    - {x: 2, y: 0}
+    - {x: -2, y: 1}
+    - {x: -1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+  - wallConstruction:
+    - {x: -1, y: 0}
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+  - wallConstruction:
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: -2, y: 1}
+    - {x: -1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+  - wallConstruction:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+  - wallConstruction:
+    - {x: -2, y: 0}
+    - {x: -1, y: 0}
+    - {x: 0, y: 0}
+    - {x: -2, y: 1}
+    - {x: -1, y: 1}
+  - wallConstruction:
+    - {x: -2, y: 0}
+    - {x: -1, y: 0}
+    - {x: 2, y: 0}
+    - {x: -2, y: 1}
+    - {x: 2, y: 1}
+  - wallConstruction:
+    - {x: -2, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: -2, y: 1}
+    - {x: 2, y: 1}
+  - wallConstruction:
+    - {x: -2, y: 0}
+    - {x: 2, y: 0}
+    - {x: -2, y: 2}
+    - {x: -1, y: 2}
+    - {x: 1, y: 2}
+    - {x: 2, y: 2}
+  - wallConstruction:
+    - {x: -2, y: 0}
+    - {x: 2, y: 0}
+    - {x: -2, y: 2}
+    - {x: 2, y: 2}

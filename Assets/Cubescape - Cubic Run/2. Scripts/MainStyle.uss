@@ -1,0 +1,31 @@
+#PauseBtn {
+    background-color: rgb(207, 209, 219);
+}
+
+#PauseBtn:active {
+    background-color: rgb(173, 174, 183);
+}
+
+#PlayBtn, SoundModeBtn {
+    background-color: rgb(162, 172, 188);
+}
+
+#PlayBtn:active, SoundModeBtn:active {
+    background-color: rgb(137, 144, 158);
+}
+
+#SoundModeBtn {
+    background-color: rgb(162, 172, 188);
+}
+
+#SoundModeBtn:active {
+    background-color: rgb(137, 144, 158);
+}
+
+#MenuBtn {
+    background-color: rgb(162, 172, 188);
+}
+
+#MenuBtn:active {
+    background-color: rgb(137, 144, 158);
+}

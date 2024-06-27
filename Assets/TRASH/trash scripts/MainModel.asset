@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80679753903444ffac426d67c2bd97a, type: 3}
+  m_Name: MainModel
+  m_EditorClassIdentifier: 
+  canMove: 1
+  oldDataPos: 45
+  roundPos: 45
+  LevelGame: 1
+  paw: 87
+  clover: 2
+  moon: 45
+  crown: 86
+  cloud: 5
+  tooth: 4
+  objectrs:
+  - {fileID: 2354503277505883274, guid: 00fe042e2083c44f1831a7665d2e0fad, type: 3}
+  countPlatforms: 0
+  boxPlatform: {fileID: 5979123093351800273, guid: 129d86ac2934b46418db61a57df6b0f3,
+    type: 3}
+  minCountPlatform: 3
+  maxCountPlatform: 10
+  colorsMat:
+  - {fileID: 2100000, guid: 571f88fb2e7bf8a4c83c8cde614c6cc8, type: 2}
+  - {fileID: 2100000, guid: fa1d54adb81afaa41b711f004ff69d3e, type: 2}
+  - {fileID: 2100000, guid: 4246571baf9e2864d9bd49a5d4b53f5a, type: 2}
+  - {fileID: 2100000, guid: a969593fbd9ca1b4f9cb5a19da5be855, type: 2}

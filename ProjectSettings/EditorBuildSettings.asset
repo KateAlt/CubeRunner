@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CubeTax/Scenes/GameArea.unity
-    guid: 4304c9e90dfe37a4ea17e523005b4cb9
+    path: Assets/Cubescape - Cubic Run/1. Screnes/MainMenu.unity
+    guid: 483772b7642ff4caf8b6c4ad202a79a3
+  - enabled: 1
+    path: Assets/Cubescape - Cubic Run/1. Screnes/GameArea.unity
+    guid: c2e71732e172b499eba8a4f941c2a0d5
+  - enabled: 0
+    path: Assets/TRASH/Test/TestScene.unity
+    guid: 203d7ada733544ed99b45d9498e6bb50
   m_configObjects: {}

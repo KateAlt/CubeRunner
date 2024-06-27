@@ -1,0 +1,7 @@
+.block {
+    width: 350px;
+    height: 350px;
+    background-image: url('project://database/Assets/CubeTax/UI/Frame%2033.png?fileID=21300000&guid=d35dc53d11f0e4147b20106a5fed60e2&type=3#Frame 33');
+    align-items: center;
+    justify-content: center;
+}
