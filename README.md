@@ -2,7 +2,7 @@
 **Hypercasual Game**
 
 ## APK
-[CubeTax_00.01.10.apk](APK/CubeRunner_01.00.50)
+[CubeTax_00.01.10.apk](https://github.com/KateAlt/PresentationResources/blob/main/APK/CubeRunner_01.00.50)
 
 ## Project Description
 CubeRunner is a game designed to showcase my skills in hypercasual game development. Despite being in the development stage, it already has a unique concept and gameplay.
@@ -12,7 +12,7 @@ In the game, you control a cube and collect various objects, avoid obstacles, an
 
 ## Screenshots
 ![Геймплей](https://raw.githubusercontent.com/KateAlt/PresentationResources/main/Image/Screenshot_20230831-122259.png?token=GHSAT0AAAAAACGCNQVTDVUUKY4QGNFM35SKZHQRFEA)
-![Користувацький інтерфейс](https://raw.githubusercontent.com/KateAlt/PresentationResources/main/Image/Screenshot_20230831-122544.png?token=GHSAT0AAAAAACGCNQVT677X5LT5LRNWM262ZHQRGCQ)
+![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%201.png?raw=true)
 
 ## Technologies Used
 The project is developed using popular technologies:
