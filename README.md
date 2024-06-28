@@ -11,8 +11,10 @@ CubeRunner is a game designed to showcase my skills in hypercasual game developm
 In the game, you control a cube and collect various objects, avoid obstacles, and aim to set high scores. The gameplay is simple yet very engaging.
 
 ## Screenshots
-![Геймплей](https://raw.githubusercontent.com/KateAlt/PresentationResources/main/Image/Screenshot_20230831-122259.png?token=GHSAT0AAAAAACGCNQVTDVUUKY4QGNFM35SKZHQRFEA)
-![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%201.png?raw=true)
+![Користувацький інтерфейс] (https://github.com/KateAlt/PresentationResources/blob/main/Image/image%201.png?raw=true)
+![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%202.png?raw=true)
+![Геймплей](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%203.png?raw=true)
+![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%204.png?raw=true)
 
 ## Technologies Used
 The project is developed using popular technologies:
