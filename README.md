@@ -15,12 +15,27 @@ In the game, you control a cube and collect various objects, avoid obstacles, an
 ![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%202.png?raw=true)
 ![Геймплей](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%203.png?raw=true)
 ![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%204.png?raw=true)
-<img src="[path/to/image.jpg](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%204.png?raw=true)" alt="Description" style="height:150px;">
 
 ## Technologies Used
-The project is developed using popular technologies:
-- Unity 3D
-- C#
+The project is developed using technologies:
+
+## Technologies Used
+
+- Unity3D: A platform for creating 2D, 3D, VR, and AR experiences.
+- C#: The main programming language in Unity.
+- Universal Render Pipeline (URP): High-performance render pipeline.
+- UI Toolkit: Framework for custom UI elements.
+- ScriptableObjects: System for data storage and management.
+- Visual Studio: IDE for writing, debugging, and optimizing C# code.
+- Git: Version control system for tracking changes and collaboration.
+
+- Particle Systems: Create effects like smoke, fire, and explosions.
+- Post-Processing: Visual enhancements like bloom, depth of field, and motion blur.
+- Shader Graph: Custom shaders for unique visual effects.
+- Lighting Effects: Dynamic lighting, shadows, and reflections.
+- Sound Effects: High-quality audio effects.
+
+- Blender: Creating 3D models, animations, and more.
 
 ## Future Plans
 My future plans include:
