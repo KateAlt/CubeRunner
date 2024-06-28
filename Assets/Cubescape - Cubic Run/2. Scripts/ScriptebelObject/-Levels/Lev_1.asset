@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817c3636242854377acf3ccfaa208ba2, type: 3}
   m_Name: Lev_1
   m_EditorClassIdentifier: 
-  isLockLev: 1
+  isLockLev: 0
   firstPlatform: {fileID: 8565898801864135519, guid: b9b82b5826a4149dea9d2a30caa3e3a3,
     type: 3}
-  starCount: 3
-  plusCollected: 6
+  starCount: 0
+  plusCollected: 0
   plusRemaining: 32
   starRemaining: 2
   wallMat: {fileID: 2100000, guid: 574192878e5804b41b3e2cb0f7e12ac0, type: 2}

@@ -1,9 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/CubeTax/UI/MainStyle.uss?fileID=7433441132597879392&amp;guid=c878555eb2efba848ba81b69f740843a&amp;type=3#MainStyle" />
-    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(151, 166, 181, 0.7);">
-        <ui:VisualElement name="Billet" class="block" />
-        <ui:VisualElement style="width: 350px; height: 350px; align-items: center; position: absolute;">
-            <ui:Label tabindex="-1" text="Fall (" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="top: 91px; font-size: 35px;" />
-        </ui:VisualElement>
-    </ui:VisualElement>
-</ui:UXML>

@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817c3636242854377acf3ccfaa208ba2, type: 3}
   m_Name: Lev_2
   m_EditorClassIdentifier: 
-  isLockLev: 1
+  isLockLev: 0
   firstPlatform: {fileID: 8565898801864135519, guid: c71e31474c18348ac845a2f9319abaf3,
     type: 3}
-  starCount: 3
-  plusCollected: 1
-  plusRemaining: 1
+  starCount: 0
+  plusCollected: 0
+  plusRemaining: 55
   starRemaining: 5
   wallMat: {fileID: 2100000, guid: 4246571baf9e2864d9bd49a5d4b53f5a, type: 2}
   platformMat:
   - {fileID: 2100000, guid: 2859013abb1764b9db818079a281f8aa, type: 2}
-  - {fileID: 2100000, guid: fa1d54adb81afaa41b711f004ff69d3e, type: 2}
+  - {fileID: 2100000, guid: 574192878e5804b41b3e2cb0f7e12ac0, type: 2}
   - {fileID: 2100000, guid: a969593fbd9ca1b4f9cb5a19da5be855, type: 2}
   lev:
   - typeObj: 0
@@ -95,30 +95,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 1
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 14
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -129,6 +109,26 @@ MonoBehaviour:
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 7
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 17
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 20
     typeWall: 3
   - typeObj: 0
     positionX: 0
@@ -140,10 +140,35 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 23
+    typeWall: 0
+  - typeObj: 1
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 4
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 26
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 28
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -154,6 +179,56 @@ MonoBehaviour:
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 31
+    typeWall: 0
+  - typeObj: 1
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 9
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 34
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 2
+    positionY: 1
+    positionZ: 37
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 2
+    positionY: 1
+    positionZ: 40
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -164,6 +239,21 @@ MonoBehaviour:
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 7
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 43
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 45
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -174,11 +264,36 @@ MonoBehaviour:
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 48
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 2
+    positionY: 1
+    positionZ: 51
     typeWall: 0
   - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 7
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 53
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -190,125 +305,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 56
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -335,10 +335,15 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 10
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 63
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -350,10 +355,20 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
+  - typeObj: 2
+    positionX: -1
+    positionY: 1
+    positionZ: 66
+    typeWall: 0
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: -1
+    positionY: 1
+    positionZ: 68
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -364,6 +379,146 @@ MonoBehaviour:
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 71
+    typeWall: 0
+  - typeObj: 1
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 7
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 73
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 2
+    positionY: 1
+    positionZ: 76
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 79
+    typeWall: 0
+  - typeObj: 1
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 3
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 83
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 86
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 1
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 8
+  - typeObj: 2
+    positionX: 0
+    positionY: 1
+    positionZ: 89
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 92
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 95
+    typeWall: 0
+  - typeObj: 1
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 1
+  - typeObj: 0
+    positionX: 0
+    positionY: 0
+    positionZ: 0
+    typeWall: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 98
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -385,180 +540,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 103
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -570,16 +555,16 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: -1
+    positionY: 1
+    positionZ: 106
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
-    typeWall: 0
+    typeWall: 5
   - typeObj: 0
     positionX: 0
     positionY: 0
@@ -590,20 +575,25 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: -1
+    positionY: 1
+    positionZ: 110
     typeWall: 0
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 112
+    typeWall: 6
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 113
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -615,10 +605,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: 2
+    positionY: 1
+    positionZ: 116
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -630,25 +620,25 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 119
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
-    positionY: 0
-    positionZ: 0
-    typeWall: 0
+    positionY: 1
+    positionZ: 120
+    typeWall: 10
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 122
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -660,10 +650,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 125
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -675,20 +665,25 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: 2
+    positionY: 1
+    positionZ: 128
     typeWall: 0
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 3
+  - typeObj: 2
+    positionX: 2
+    positionY: 1
+    positionZ: 131
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -700,20 +695,25 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 134
     typeWall: 0
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
+    typeWall: 7
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 137
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -725,10 +725,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 140
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -740,25 +740,25 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 143
     typeWall: 0
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
-    typeWall: 0
-  - typeObj: 0
+    typeWall: 10
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 146
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -770,10 +770,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 149
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -785,10 +785,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 152
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -800,25 +800,25 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: -2
+    positionY: 1
+    positionZ: 155
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
-    typeWall: 0
+    typeWall: 5
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 158
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -830,25 +830,25 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 161
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
-    typeWall: 0
+    typeWall: 7
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 164
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -860,10 +860,10 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: 1
+    positionY: 1
+    positionZ: 167
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -875,15 +875,15 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
     positionY: 0
     positionZ: 0
-    typeWall: 0
-  - typeObj: 0
+    typeWall: 4
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 171
     typeWall: 0
   - typeObj: 0
     positionX: 0
@@ -895,30 +895,30 @@ MonoBehaviour:
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 2
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 174
     typeWall: 0
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
+  - typeObj: 1
     positionX: 0
-    positionY: 0
-    positionZ: 0
+    positionY: 1
+    positionZ: 176
     typeWall: 0
   - typeObj: 0
     positionX: 0
     positionY: 0
     positionZ: 0
     typeWall: 0
-  - typeObj: 0
-    positionX: 0
-    positionY: 0
-    positionZ: 0
+  - typeObj: 2
+    positionX: -1
+    positionY: 1
+    positionZ: 178
     typeWall: 0
   - typeObj: 0
     positionX: 0

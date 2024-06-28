@@ -63,45 +63,25 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/TRASH/Scripts/Restart.cs" />
-    <Compile Include="Assets/TRASH/Scripts/Bootstrapper/BootstrapperRandomer.cs" />
+    <Compile Include="Assets/Cubescape - Cubic Run/needs processing/MainModel.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/-Views/MenuView.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/1. Screnes/MoveBetweenPoints.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/SpawnGameArea/SpawnWall.cs" />
-    <Compile Include="Assets/TRASH/CameraFolowing.cs" />
-    <Compile Include="Assets/TRASH/Scripts/RotateFinish.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/SpawnGameArea/FinishController.cs" />
-    <Compile Include="Assets/TRASH/Test/TestDelete.cs" />
-    <Compile Include="Assets/TRASH/Test/ControlerUI.cs" />
-    <Compile Include="Assets/TRASH/Test/kuku.cs" />
-    <Compile Include="Assets/TRASH/Scripts/UIController.cs" />
-    <Compile Include="Assets/InputHandler.cs" />
-    <Compile Include="Assets/TRASH/CubeTax/UI/UIMenegerMainArea.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/5. Main Assets/AppRating.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/-Controlers/RuntimeData.cs" />
-    <Compile Include="Assets/TRASH/Scripts/CharController.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/4. UI/-Scripts/UIGameAreaView.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/LevelsData.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/4. UI/-Scripts/UIMenuView.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/LevData.cs" />
-    <Compile Include="Assets/TRASH/Scripts/AssignedCube.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/MovementHandler.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/TRASH/Scripts/Bootstrapper/CreatePlatforms.cs" />
-    <Compile Include="Assets/TRASH/Scripts/MainData.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/-Models/MenuModel.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/5. Main Assets/Audio/FPSDisplay.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/CharacterController.cs" />
-    <Compile Include="Assets/TRASH/TestCharMove.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/EffectControls.cs" />
-    <Compile Include="Assets/TRASH/Scripts/StartGame.cs" />
-    <Compile Include="Assets/TRASH/Scripts/PlatfonmMechanics.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/SpawnGameArea/SpawnCoins.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/Character ControllerTest.cs" />
-    <Compile Include="Assets/TRASH/Menu/MenuBehavior.cs" />
-    <Compile Include="Assets/TRASH/trash scripts/MainModel.cs" />
-    <Compile Include="Assets/TRASH/Materials Plas/Materials/CreateObjectWithMaterial.cs" />
-    <Compile Include="Assets/TRASH/SpawrerPlatforms.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/-Controlers/GameAreaController.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/SpawnGameArea/SpawnMeneger.cs" />
     <Compile Include="Assets/Cubescape - Cubic Run/2. Scripts/-Controlers/MenuController.cs" />
@@ -112,17 +92,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Cubescape - Cubic Run/2. Scripts/MainStyle.uss" />
-    <None Include="Assets/TRASH/CubeTax/UI/Element.uxml" />
-    <None Include="Assets/TRASH/CubeTax/UI/MainArea.uxml" />
     <None Include="Assets/Cubescape - Cubic Run/4. UI/-Layouts/MenuUI.uxml" />
-    <None Include="Assets/TRASH/CubeTax/MenuUI.uxml" />
-    <None Include="Assets/TRASH/Menu/Example.uxml" />
     <None Include="Assets/Cubescape - Cubic Run/4. UI/-Layouts/GameAreaUI.uxml" />
-    <None Include="Assets/TRASH/CubeTax/UI/MainStyle.uss" />
-    <None Include="Assets/TRASH/Menu/LeavesMenuUI.uxml" />
     <None Include="Assets/GooglePlayPlugins/com.google.play.review/Proguard/review.txt" />
     <None Include="Assets/GooglePlayPlugins/com.google.play.core/Proguard/common.txt" />
-    <None Include="Assets/TRASH/Test/TestUI.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

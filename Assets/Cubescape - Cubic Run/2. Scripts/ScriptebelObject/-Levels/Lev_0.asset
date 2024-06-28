@@ -15,8 +15,8 @@ MonoBehaviour:
   isLockLev: 1
   firstPlatform: {fileID: 8565898801864135519, guid: 68ede5209bd1e4fc39f5d816cd76f688,
     type: 3}
-  starCount: 2
-  plusCollected: 10
+  starCount: 0
+  plusCollected: 0
   plusRemaining: 14
   starRemaining: 0
   wallMat: {fileID: 2100000, guid: a969593fbd9ca1b4f9cb5a19da5be855, type: 2}
