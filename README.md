@@ -2,10 +2,10 @@
 **Hypercasual Game**
 
 ## APK
-[CubeTax_00.01.10.apk](https://github.com/KateAlt/PresentationResources/blob/main/APK/CubeTax_00.01.10.apk)
+[CubeTax_00.01.10.apk](APK/CubeRunner_01.00.50)
 
 ## Project Description
-Cube Tax is a game designed to showcase my skills in hypercasual game development. Despite being in the development stage, it already has a unique concept and gameplay.
+CubeRunner is a game designed to showcase my skills in hypercasual game development. Despite being in the development stage, it already has a unique concept and gameplay.
 
 ## Gameplay
 In the game, you control a cube and collect various objects, avoid obstacles, and aim to set high scores. The gameplay is simple yet very engaging.
@@ -29,5 +29,5 @@ My future plans include:
 
 ## Author
 The project was developed by Kate Kazaeva.
-Contact me at developmentfedenko@gmail.com.
+Contact me at blackseafad@gmail.com
 
