@@ -15,6 +15,7 @@ In the game, you control a cube and collect various objects, avoid obstacles, an
 ![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%202.png?raw=true)
 ![Геймплей](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%203.png?raw=true)
 ![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%204.png?raw=true)
+<img src="[path/to/image.jpg](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%204.png?raw=true)" alt="Description" style="height:150px;">
 
 ## Technologies Used
 The project is developed using popular technologies:
