@@ -13,7 +13,7 @@ In the game, you control a cube and collect various objects, avoid obstacles, an
 ## Screenshots
 
 
-![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%201.png?raw=true)
+![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/2024-07-01.gif?raw=true)
 ![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%202.png?raw=true)
 ![Геймплей](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%203.png?raw=true)
 ![Користувацький інтерфейс](https://github.com/KateAlt/PresentationResources/blob/main/Image/image%204.png?raw=true)
