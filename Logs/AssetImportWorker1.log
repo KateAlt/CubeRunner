@@ -16,11 +16,11 @@ COMMAND LINE ARGUMENTS:
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker1
 -projectPath
 /Users/admin/My/~UNITY~/MyGames/CubeTax
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
 -srvPort
 51979
 Successfully changed project path to: /Users/admin/My/~UNITY~/MyGames/CubeTax
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/admin/My/~UNITY~/MyGames/CubeTax
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8630275072] Host "[IP] 192.168.31.191 [Port] 0 [Flags] 2 [Guid] 3808510528 [EditorId] 3808510528 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-admin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8630275072] Host "[IP] 192.168.31.191 [Port] 0 [Flags] 2 [Guid] 30487974 [EditorId] 30487974 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-admin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8630275072] Host "[IP] 192.168.31.191 [Port] 0 [Flags] 2 [Guid] 3808510528 [EditorId] 3808510528 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-admin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8630275072] Host "[IP] 192.168.31.191 [Port] 0 [Flags] 2 [Guid] 30487974 [EditorId] 30487974 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-admin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 3.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,54 +76,54 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56974
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.007404 seconds.
+Registered in 0.007346 seconds.
 - Loaded All Assemblies, in  0.230 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 60 ms
+Android Extension - Scanning For ADB Devices 72 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.322 seconds
-Domain Reload Profiling: 552ms
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 557ms
 	BeginReloadAssembly (53ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (38ms)
+	initialDomainReloadingComplete (37ms)
 	LoadAllAssembliesAndSetupDomain (108ms)
 		LoadAssemblies (54ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
 				TypeCache.ScanAssembly (95ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (322ms)
+	FinalizeReload (327ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (286ms)
+		SetupLoadedEditorAssemblies (289ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (192ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (198ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
 			ProcessInitializeOnLoadAttributes (63ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -131,8 +131,8 @@ Domain Reload Profiling: 552ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.453 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -142,48 +142,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.447 seconds
-Domain Reload Profiling: 900ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling: 898ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (312ms)
-		LoadAssemblies (211ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (212ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (120ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (118ms)
 				TypeCache.ScanAssembly (103ms)
 			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (7ms)
 	FinalizeReload (447ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (313ms)
+		SetupLoadedEditorAssemblies (314ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (440.8 KB). Loaded Objects now: 5581.
-Memory consumption went from 219.4 MB to 218.9 MB.
-Total: 2.921834 ms (FindLiveObjects: 0.139541 ms CreateObjectMapping: 0.057250 ms MarkObjects: 2.502375 ms  DeleteObjects: 0.222000 ms)
+Unloading 79 unused Assets / (440.4 KB). Loaded Objects now: 5581.
+Memory consumption went from 219.5 MB to 219.0 MB.
+Total: 3.058584 ms (FindLiveObjects: 0.162792 ms CreateObjectMapping: 0.059375 ms MarkObjects: 2.632000 ms  DeleteObjects: 0.203542 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -200,50 +200,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1208809.877786 seconds.
-  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/LevData.cs
-  artifactKey: Guid(817c3636242854377acf3ccfaa208ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/LevData.cs using Guid(817c3636242854377acf3ccfaa208ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0747715d8413d9efb016af725e1f42b') in 0.001148 seconds
+  Time since last request: 1208808.576698 seconds.
+  path: Assets/Cubescape - Cubic Run/2. Scripts/MainStyle.uss
+  artifactKey: Guid(100d6b37a02014a67bd842a047e4213b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubescape - Cubic Run/2. Scripts/MainStyle.uss using Guid(100d6b37a02014a67bd842a047e4213b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8f0df9586bb1e2960a7f7508f23300') in 0.019101 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.677287 seconds.
-  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/LevelsData.cs
-  artifactKey: Guid(2d7f89c7acc6744ae922092fe250f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/LevelsData.cs using Guid(2d7f89c7acc6744ae922092fe250f464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877c5eab026364be43a63fc35b7e4dc8') in 0.000345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.863448 seconds.
-  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels
-  artifactKey: Guid(e55a43352c6324e20ba07d1f5cbf520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels using Guid(e55a43352c6324e20ba07d1f5cbf520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34012b27fd779ac481fcacf5eaa318ca') in 0.000653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.080612 seconds.
-  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels/Lev_0.asset
-  artifactKey: Guid(da52666411b6c434ead92974c9646757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels/Lev_0.asset using Guid(da52666411b6c434ead92974c9646757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb468193529f7960d59d93027da4b91') in 0.009632 seconds
+  Time since last request: 2.940907 seconds.
+  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels/Lev_1.asset
+  artifactKey: Guid(a70b028e804d74cec934e077d4961222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels/Lev_1.asset using Guid(a70b028e804d74cec934e077d4961222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485ee4a2a410732935e591d83696dd15') in 0.003063 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 108
 ========================================================================
 Received Import Request.
-  Time since last request: 1.066353 seconds.
-  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/Resources/LevelsData.asset
-  artifactKey: Guid(557270271546a435bb91325c1e200d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/Resources/LevelsData.asset using Guid(557270271546a435bb91325c1e200d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c76350725f4f1b46ba2fcdbaf7144bb') in 0.003850 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels/Lev_2.asset
+  artifactKey: Guid(45cb46582249d4bf2801d6701175f0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/-Levels/Lev_2.asset using Guid(45cb46582249d4bf2801d6701175f0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709bd3a33d8f3c96a0e9657601d8af05') in 0.002220 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 318
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 1.063992 seconds.
+  path: Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/Resources/wallData.asset
+  artifactKey: Guid(f840b4f42f6b64fef96f3f2993d13242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubescape - Cubic Run/2. Scripts/ScriptebelObject/Resources/wallData.asset using Guid(f840b4f42f6b64fef96f3f2993d13242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65094feb537e8096c6c9adeb99b1c853') in 0.000931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x172c87000 may have been prematurely finalized
+Thread 0x31f5c7000 may have been prematurely finalized
 - Loaded All Assemblies, in  0.261 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -252,18 +244,18 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.894 seconds
-Domain Reload Profiling: 1155ms
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1151ms
 	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
 		LoadAssemblies (151ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (14ms)
@@ -271,27 +263,27 @@ Domain Reload Profiling: 1155ms
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (894ms)
+	FinalizeReload (890ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (304ms)
+		SetupLoadedEditorAssemblies (301ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
+			BeforeProcessingInitializeOnLoad (47ms)
 			ProcessInitializeOnLoadAttributes (192ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4965 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (417.7 KB). Loaded Objects now: 5599.
-Memory consumption went from 198.8 MB to 198.4 MB.
-Total: 2.730708 ms (FindLiveObjects: 0.203833 ms CreateObjectMapping: 0.063833 ms MarkObjects: 2.335959 ms  DeleteObjects: 0.126500 ms)
+Unloading 42 unused Assets / (417.3 KB). Loaded Objects now: 5599.
+Memory consumption went from 198.9 MB to 198.5 MB.
+Total: 2.729958 ms (FindLiveObjects: 0.211167 ms CreateObjectMapping: 0.063208 ms MarkObjects: 2.319750 ms  DeleteObjects: 0.135333 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -308,35 +300,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 27.344530 seconds.
-  path: Assets/Cubescape - Cubic Run/1. Screnes/GameArea 1.unity
-  artifactKey: Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/1. Screnes/GameArea 1.unity using Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d74af40995337cf1fe09aff14dd7b5') in 0.001243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.484068 seconds.
-  path: Assets/Cubescape - Cubic Run/1. Screnes/testing scene.unity
-  artifactKey: Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/1. Screnes/testing scene.unity using Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8356074223c4937997aafcb31ff4cd03') in 0.000328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.434473 seconds.
-  path: Assets/Cubescape - Cubic Run/1. Screnes/MoveBetweenPoints.cs
-  artifactKey: Guid(bfdf1e3e08dc24a618be4caa5db4eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/1. Screnes/MoveBetweenPoints.cs using Guid(bfdf1e3e08dc24a618be4caa5db4eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a0153408e3a08de854a51c7cf9b83b') in 0.000329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x172487000 may have been prematurely finalized
+Thread 0x16b54f000 may have been prematurely finalized
 - Loaded All Assemblies, in  0.288 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -349,17 +317,17 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 1181ms
 	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
 		LoadAssemblies (164ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
+		AnalyzeDomain (28ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (13ms)
@@ -367,14 +335,14 @@ Domain Reload Profiling: 1181ms
 	FinalizeReload (894ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (291ms)
+		SetupLoadedEditorAssemblies (292ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -382,9 +350,9 @@ Domain Reload Profiling: 1181ms
 Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4965 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (418.2 KB). Loaded Objects now: 5615.
-Memory consumption went from 205.2 MB to 204.8 MB.
-Total: 2.635833 ms (FindLiveObjects: 0.194417 ms CreateObjectMapping: 0.058833 ms MarkObjects: 2.249084 ms  DeleteObjects: 0.132958 ms)
+Unloading 42 unused Assets / (417.8 KB). Loaded Objects now: 5615.
+Memory consumption went from 205.1 MB to 204.7 MB.
+Total: 2.623125 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.059375 ms MarkObjects: 2.228292 ms  DeleteObjects: 0.135875 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -400,35 +368,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.769684 seconds.
-  path: Assets/Cubescape - Cubic Run/2. Scripts/MoveBetweenPoints.cs
-  artifactKey: Guid(bfdf1e3e08dc24a618be4caa5db4eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/2. Scripts/MoveBetweenPoints.cs using Guid(bfdf1e3e08dc24a618be4caa5db4eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cca554372025bbd0d1a6b765a42625f') in 0.001029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.001900 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc473676b6ef0aa49ecc0a24349e427') in 0.014119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 36.881772 seconds.
-  path: Assets/Cubescape - Cubic Run/1. Screnes/testing scene.unity
-  artifactKey: Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/1. Screnes/testing scene.unity using Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa35a6fa91ea724dadcb3cb6f89e97de') in 0.002644 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.461318 seconds.
-  path: Assets/Cubescape - Cubic Run/1. Screnes/testing scene.unity
-  artifactKey: Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubescape - Cubic Run/1. Screnes/testing scene.unity using Guid(fbaeb765b710a4fd8bb47b5a95e684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bbea8e71d03da3eecca08911e48c0a') in 0.000525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0

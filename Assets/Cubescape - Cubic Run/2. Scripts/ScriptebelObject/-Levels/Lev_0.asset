@@ -19,7 +19,7 @@ MonoBehaviour:
   plusCollected: 0
   plusRemaining: 14
   starRemaining: 0
-  wallMat: {fileID: 2100000, guid: a969593fbd9ca1b4f9cb5a19da5be855, type: 2}
+  wallMat: {fileID: 2100000, guid: 4246571baf9e2864d9bd49a5d4b53f5a, type: 2}
   platformMat:
   - {fileID: 2100000, guid: 2859013abb1764b9db818079a281f8aa, type: 2}
   - {fileID: 2100000, guid: fa1d54adb81afaa41b711f004ff69d3e, type: 2}
